@@ -17,8 +17,8 @@ Order Links
 | ----------------- |:--------------------:|
 | ![Board Top][top] | ![Board Bottom][bot] |
 
-[top]: RJ-45 Top.png "Board Top"
-[bot]: RJ-45 Bottom.png "Board Bottom"
+[top]: imgs/RJ-45%20Top.png "Board Top"
+[bot]: imgs/RJ-45%20Bottom.png "Board Bottom"
 
 
 Bill of Materials

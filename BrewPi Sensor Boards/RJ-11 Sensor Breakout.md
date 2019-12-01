@@ -21,8 +21,8 @@ Order Links
 | ----------------- |:--------------------:|
 | ![Board Top][top] | ![Board Bottom][bot] |
 
-[top]: RJ-11 Top.png "Board Top"
-[bot]: RJ-11 Bottom.png "Board Bottom"
+[top]: imgs/RJ-11%20Top.png "Board Top"
+[bot]: imgs/RJ-11%20Bottom.png "Board Bottom"
 
 
 Bill of Materials

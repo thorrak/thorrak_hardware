@@ -7,10 +7,10 @@ Although the "heart" of a BrewPi controller is the microprocessor running the Br
 | Board Design                                                                             | Order Link                           | Through Hole       | Surface Mount      | I2C LCD            | Connector Type  | Integrated Level Shifter |
 |------------------------------------------------------------------------------------------|--------------------------------------|--------------------|--------------------|--------------------|-----------------|--------------------------|
 | Surface Mount                                                                            | [Order](https://PCBs.io/share/8DDk0) |                    | :heavy_check_mark: | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |
-| [TH - Sparkfun /w Dupont](D1 - LCD TH Dupont.md)                                         | [Order](https://PCBs.io/share/40D1X) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          |
+| [TH - Sparkfun /w Dupont](D1%20-%20LCD TH Dupont.md)                                     | [Order](https://PCBs.io/share/40D1X) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          |
 | [TH - MOSFETs](https://github.com/brewpi-remix/brewpi-pcb-rmx/tree/master/D1%20Breakout) | [Order](https://pcbs.io/share/z5JLZ) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |
-| [TH - Sparkfun /w Screw Terminals](D1 - LCD TH Screws.md)                                | [Order](https://PCBs.io/share/4qpVq) | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          |
-| [TH - No LCD](D1 - No LCD.md)                                                            | [Order](https://PCBs.io/share/49yVo) | :heavy_check_mark: |                    |                    | Screw Terminals |                          |
+| [TH - Sparkfun /w Screw Terminals](D1%20-%20LCD%20TH%20Screws.md)                        | [Order](https://PCBs.io/share/4qpVq) | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          |
+| [TH - No LCD](D1%20-%20No%20LCD.md)                                                      | [Order](https://PCBs.io/share/49yVo) | :heavy_check_mark: |                    |                    | Screw Terminals |                          |
 
 
 

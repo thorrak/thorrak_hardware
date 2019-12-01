@@ -18,8 +18,8 @@ Order Links
 | ----------------- |:--------------------:|
 | ![Board Top][top] | ![Board Bottom][bot] |
 
-[top]: LCD TH Screws Top.png "Board Top"
-[bot]: LCD TH Screws Bottom.png "Board Bottom"
+[top]: imgs/No%20LCD%20Top.png "Board Top"
+[bot]: imgs/No%20LCD%20Bottom.png "Board Bottom"
 
 
 Bill of Materials
