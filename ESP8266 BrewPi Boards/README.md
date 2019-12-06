@@ -3,11 +3,25 @@ ESP8266 BrewPi Controller Boards
 
 Although the "heart" of a BrewPi controller is the microprocessor running the BrewPi-compatible firmware, without other connected components that microcontroller cannot sense temperature, control power, or do any of the other things that make a temperature controller useful. Several PCBs have been designed to help simplify the wiring of the microcontroller to those other components.
 
+Five different versions of the main PCB are listed here.  Each provide
+different functionality and/or form factors:
+
+*   No LCD Support with DuPont connectors and through-hole components
+*   LCD Support with DuPont connectors and surface-mount level converter components
+*   LCD Support with DuPont connectors, through-hole components, and a SparkFun-based level converter sub-board
+*   LCD Support with screw connectors, through-hole components, and a SparkFun-based level converter sub-board
+*   LCD Support with DuPont connectors, through-hole components, and an integrated level converter
+
+You may either purchase the boards using the links provided through pcbs.io, or you may download and use the Eagle files provided with a board supplier of your choice.  If you use the pcbs.io links, Thorrak will receive a small credit on the site.
+
+The BOM links provided are intended to serve as examples of the parts needed and are not the only place to source the parts listed.  Generally speaking, AliExpress is less expensive for parts.  The trade-off is that sometimes you are buying 100 at a time, and in most cases you are waiting for shipping.  Mouser or other project part suppliers will probably have these parts as well.
+
+
 
 | Board Design                                                                             | Order Link                           | Through Hole       | Surface Mount      | I2C LCD            | Connector Type  | Integrated Level Shifter |
 |------------------------------------------------------------------------------------------|--------------------------------------|--------------------|--------------------|--------------------|-----------------|--------------------------|
 | Surface Mount                                                                            | [Order](https://PCBs.io/share/8DDk0) |                    | :heavy_check_mark: | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |
-| [TH - Sparkfun /w Dupont](D1%20-%20LCD TH Dupont.md)                                     | [Order](https://PCBs.io/share/40D1X) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          |
+| [TH - Sparkfun /w Dupont](D1%20-%20LCD%20TH%20Dupont.md)                                 | [Order](https://PCBs.io/share/40D1X) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          |
 | [TH - MOSFETs](https://github.com/brewpi-remix/brewpi-pcb-rmx/tree/master/D1%20Breakout) | [Order](https://pcbs.io/share/z5JLZ) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |
 | [TH - Sparkfun /w Screw Terminals](D1%20-%20LCD%20TH%20Screws.md)                        | [Order](https://PCBs.io/share/4qpVq) | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          |
 | [TH - No LCD](D1%20-%20No%20LCD.md)                                                      | [Order](https://PCBs.io/share/49yVo) | :heavy_check_mark: |                    |                    | Screw Terminals |                          |
@@ -41,7 +55,7 @@ Boards that are "dupont" style have compact pin-headers on them, and can only be
 Choose "dupont" if you want a cheaper, smaller board. Choose "screw terminals" if you prefer much larger soldering pads. 
 
 
-## Integrated Level Shifter
+### Integrated Level Shifter
 
 I2C LCDs require that the 3.3 volt logic from the ESP8266 be "translated" to the 5 volt logic required by the LCD. This is done through the use of a "level shifter". Level shifters are relatively simple components, but require soldering a number of things by hand which some hobbyists would prefer not to do. The boards with integrated level shifters have these additional components as part of the PCB, while those boards without an integrated level shifter use a "sparkfun"-style level shifter which is attached to the board using pin headers. 
 
