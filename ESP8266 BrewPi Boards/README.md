@@ -5,7 +5,6 @@ Although the "heart" of a BrewPi controller is the microprocessor running the Br
 
 Five different versions of the main PCB are listed here.  Each provide
 different functionality and/or form factors:
-<<<<<<< HEAD
 
 *   No LCD Support with DuPont connectors and through-hole components
 *   LCD Support with DuPont connectors and surface-mount level converter components
@@ -13,43 +12,18 @@ different functionality and/or form factors:
 *   LCD Support with screw connectors, through-hole components, and a SparkFun-based level converter sub-board
 *   LCD Support with DuPont connectors, through-hole components, and an integrated level converter
 
-You may either purchase the boards using the links provided through pcbs.io, or you may download and use the Eagle files provided with a board supplier of your choice.  If you use the pcbs.io links, Thorrak will receive a small credit on the site.
+You may either purchase the boards using the links provided through OshPark, or you may download and use the Eagle files provided with a board supplier of your choice.  OshPark tends to be one of the more expensive board aggregators, but also happens to be one of the faster/more reliable ones.
 
 The BOM links provided are intended to serve as examples of the parts needed and are not the only place to source the parts listed.  Generally speaking, AliExpress is less expensive for parts.  The trade-off is that sometimes you are buying 100 at a time, and in most cases you are waiting for shipping.  Mouser or other project part suppliers will probably have these parts as well.
 
 
-
-| Board Design                                                 | Order Link                                            | Through Hole       | Surface Mount      | I2C LCD            | Connector Type  | Integrated Level Shifter |
-| ------------------------------------------------------------ | ----------------------------------------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------------ |
-| [Surface Mount](D1-%20-%20-SMD.md)                           | [Order](https://oshpark.com/shared_projects/sZcIGxXP) |                    | :heavy_check_mark: | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |
-| [TH - Sparkfun /w Dupont](D1%20-%20LCD%20TH%20Dupont.md)     | [Order](https://PCBs.io/share/40D1X)                  | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          |
-| [TH - MOSFETs](https://github.com/brewpi-remix/brewpi-pcb-rmx/tree/master/D1%20Breakout) | [Order](https://pcbs.io/share/z5JLZ)                  | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |
-| [TH - Sparkfun /w Screw Terminals](D1%20-%20LCD%20TH%20Screws.md) | [Order](https://PCBs.io/share/4qpVq)                  | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          |
-| [TH - No LCD](D1%20-%20No%20LCD.md)                          | [Order](https://PCBs.io/share/49yVo)                  | :heavy_check_mark: |                    |                    | Screw Terminals |                          |
-=======
-
-*   No LCD Support with DuPont connectors and through-hole components
-*   LCD Support with DuPont connectors and surface-mount level converter components
-*   LCD Support with DuPont connectors, through-hole components, and a SparkFun-based level converter sub-board
-*   LCD Support with screw connectors, through-hole components, and a SparkFun-based level converter sub-board
-*   LCD Support with DuPont connectors, through-hole components, and an integrated level converter
-
-You may either purchase the boards using the links provided through pcbs.io, or you may download and use the Eagle files provided with a board supplier of your choice.  If you use the pcbs.io links, Thorrak will receive a small credit on the site.
-
-The BOM links provided are intended to serve as examples of the parts needed and are not the only place to source the parts listed.  Generally speaking, AliExpress is less expensive for parts.  The trade-off is that sometimes you are buying 100 at a time, and in most cases you are waiting for shipping.  Mouser or other project part suppliers will probably have these parts as well.
-
-
-
-| Board Design                                                                             | Order Link                           | Through Hole       | Surface Mount      | I2C LCD            | Connector Type  | Integrated Level Shifter |
-|------------------------------------------------------------------------------------------|--------------------------------------|--------------------|--------------------|--------------------|-----------------|--------------------------|
-| Surface Mount                                                                            | [Order](https://PCBs.io/share/8DDk0) |                    | :heavy_check_mark: | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |
-| [TH - Sparkfun /w Dupont](D1%20-%20LCD%20TH%20Dupont.md)                                 | [Order](https://PCBs.io/share/40D1X) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          |
-| [TH - MOSFETs](https://github.com/brewpi-remix/brewpi-pcb-rmx/tree/master/D1%20Breakout) | [Order](https://pcbs.io/share/z5JLZ) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |
-| [TH - Sparkfun /w Screw Terminals](D1%20-%20LCD%20TH%20Screws.md)                        | [Order](https://PCBs.io/share/4qpVq) | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          |
-| [TH - No LCD](D1%20-%20No%20LCD.md)                                                      | [Order](https://PCBs.io/share/49yVo) | :heavy_check_mark: |                    |                    | Screw Terminals |                          |
->>>>>>> 996ede58e6deb5b6a19362bbdd623e0db69f3b6e
-
-
+| Board Design                                                 | Order Link                                            | Through Hole       | Surface Mount      | I2C LCD            | Connector Type  | Integrated Level Shifter | Selectable OneWire Voltage |
+| ------------------------------------------------------------ | ----------------------------------------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------------ | -------------------------- |
+| [Surface Mount](D1-%20-%20-SMD.md)                           | [Order](https://oshpark.com/shared_projects/sZcIGxXP) |                    | :heavy_check_mark: | :heavy_check_mark: | Dupont          | :heavy_check_mark:       | :heavy_check_mark:         |
+| [TH - Sparkfun /w Dupont](D1%20-%20LCD%20TH%20Dupont.md)     | [Order](https://oshpark.com/shared_projects/UGNmCb2S) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          | :heavy_check_mark:         |
+| [TH - MOSFETs](https://github.com/brewpi-remix/brewpi-pcb-rmx/tree/master/D1%20Breakout) | [Order](https://pcbs.io/share/z5JLZ)                  | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |                            |
+| [TH - Sparkfun /w Screw Terminals](D1%20-%20LCD%20TH%20Screws.md) | [Order](https://PCBs.io/share/4qpVq)                  | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          |                            |
+| [TH - No LCD](D1%20-%20No%20LCD.md)                          | [Order](https://PCBs.io/share/49yVo)                  | :heavy_check_mark: |                    |                    | Screw Terminals |                          |                            |
 
 
 Features Explained
