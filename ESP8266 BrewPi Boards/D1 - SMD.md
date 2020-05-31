@@ -27,7 +27,7 @@ Bill of Materials
 
 | Part                                                         | Qty  | Build Cost | Order Qty | Order Cost* |
 | ------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
-| [PCB](https://PCBs.io/share/49yVo)                           | 1    | $4.94      | 3         | $14.80      |
+| [PCB](https://oshpark.com/shared_projects/sZcIGxXP)          | 1    | $4.94      | 3         | $14.80      |
 | [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) | 1    | $0.13      | 20        | $2.52       |
 | [Wago 2-terminal Screw Clamp](https://www.aliexpress.com/item/32700056337.html) | 1    | $0.02      | 100       | $1.95       |
 | [10k 0805 Resistor](https://www.aliexpress.com/item/32865947306.html) | 4    | $0.03      | 100       | $0.60       |
