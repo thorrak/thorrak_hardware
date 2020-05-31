@@ -44,7 +44,7 @@ Bill of Materials (Incomplete)
 
 - The 2 8-pin Female pin headers noted above are typically included with the D1 Mini, and thus are not included in the price
 - The 2 optional 6-Pin Female pin headers can be used in the holes for the SparkFun level shifter, thus allowing it to be replaced at a later date if needed. If omitted, the level shifter's male pins can be soldered directly through the holes in the PCB.
-- This part list does not include wire, dupont cables, the D1 Mini, the relay board, or the cable required to connect to the sensor board
+- In addition to the parts list above a complete build requires a set of [Common Components](Common%20Components.md) and the appropriate [Sensor Board](../BrewPi%20Sensor%20Boards/README.md)
 
 There are sellers on AliExpress that sell "SparkFun"-style logic level converters -- If you order from one of these sellers, please be sure that the pinout is the same (HV on one side, LV on the other side, with GND and HV/LV in the middle).
 
@@ -53,7 +53,7 @@ There are sellers on AliExpress that sell "SparkFun"-style logic level converter
 Build Notes
 -----------
 
-This board is intended to be used with an additional "sensor breakout" PCB to which the DS18b20 temperature sensors will need to be connected. 
+This board is intended to be used with an additional ["sensor breakout PCB"](../BrewPi%20Sensor%20Boards/README.md) to which the DS18b20 temperature sensors will need to be connected. 
 
 This board allows for selectable voltage to the DS18b20 temperature sensors via the "ONEWIRE_VSEL" header. In order for the temperature sensors to work, you will need to power them. Create a solder bridge between the center "OW" pad of this header and *either* the 5v or 3v3 pads to select the correct voltage and power the temperatre sensors. Generally 5v is the best choice but there are some sensors that require 3v3 to work.
 

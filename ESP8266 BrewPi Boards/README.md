@@ -3,8 +3,7 @@ ESP8266 BrewPi Controller Boards
 
 Although the "heart" of a BrewPi controller is the microprocessor running the BrewPi-compatible firmware, without other connected components that microcontroller cannot sense temperature, control power, or do any of the other things that make a temperature controller useful. Several PCBs have been designed to help simplify the wiring of the microcontroller to those other components.
 
-Five different versions of the main PCB are listed here.  Each provide
-different functionality and/or form factors:
+Five different versions of the main "controller" PCB are listed here.  Each provide different functionality and/or form factors:
 
 *   No LCD Support with DuPont connectors and through-hole components
 *   LCD Support with DuPont connectors and surface-mount level converter components
@@ -12,7 +11,7 @@ different functionality and/or form factors:
 *   LCD Support with screw connectors, through-hole components, and a SparkFun-based level converter sub-board
 *   LCD Support with DuPont connectors, through-hole components, and an integrated level converter
 
-You may either purchase the boards using the links provided through OshPark, or you may download and use the Eagle files provided with a board supplier of your choice.  OshPark tends to be one of the more expensive board aggregators, but also happens to be one of the faster/more reliable ones.
+You may either purchase the boards through OshPark using the links provided or you may download and use the Eagle files provided with a board supplier of your choice.  OshPark tends to be one of the more expensive board aggregators, but also happens to be one of the faster/more reliable ones.
 
 The BOM links provided are intended to serve as examples of the parts needed and are not the only place to source the parts listed.  Generally speaking, AliExpress is less expensive for parts.  The trade-off is that sometimes you are buying 100 at a time, and in most cases you are waiting for shipping.  Mouser or other project part suppliers will probably have these parts as well.
 
@@ -61,3 +60,6 @@ Choose this option if you want a smaller, more compact board.
 
 
 
+## Other Required Components
+
+Although each indiviudal "controller" PCB has its own unique set of required components, all of the PCBs listed above require an additional set of common components and the appropriate sensor board. After choosing the appropriate PCB from the list above, please review the [Common Components](Common%20Components.md) and [Sensor Board](../BrewPi%20Sensor%20Boards/README.md) pages to ensure you order everything necessary for a complete build. 

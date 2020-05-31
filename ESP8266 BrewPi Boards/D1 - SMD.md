@@ -45,14 +45,14 @@ Bill of Materials
 * Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping.
 * Male pin headers typically come in strips of 40 - Price listed above is for an order of 10 strips of 40 (one strip of which is more than enough for the 13 pins required for this project)
 * The 2 Female pin headers noted above are typically included with the D1 Mini, and thus are not included in the price
-* This part list does not include wire, dupont cables, the D1 Mini, the relay board, or the cable required to connect to the sensor board
+* In addition to the parts list above a complete build requires a set of [Common Components](Common%20Components.md) and the appropriate [Sensor Board](../BrewPi%20Sensor%20Boards/README.md)
 
 
 
 Build Notes
 -----------
 
-This board is intended to be used with an additional "sensor breakout" PCB to which the DS18b20 temperature sensors will need to be connected. 
+This board is intended to be used with an additional ["sensor breakout PCB"](../BrewPi%20Sensor%20Boards/README.md) to which the DS18b20 temperature sensors will need to be connected. 
 
 This relay is intended to be connected to this board with two sets of dupont connectors: The first set (4 connectors) connect from the "RELAY" header to the 4-pin input-header on the relay. The second set (2 connectors) connects from the "PWR" header on the PCB. The +5v pin connects to the "JD-VCC" pin on the relay, and the GND pin connects to the GND pin next to the "JD-VCC" pin. **NOTE** - Save the jumper that previously connected the "VCC" and "JC-VCC" pins on the relay board (see below).
 
