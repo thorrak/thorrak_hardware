@@ -11,7 +11,7 @@ Order Links
 
 [Order from OshPark](https://oshpark.com/shared_projects/49H9UFFe):
 
-- 2 Layer Board - 1.79 x 1.44 in / (45.3mm x 36.5 mm)
+- 2 Layer Board - 1.79 x 1.44 in (45.3mm x 36.5 mm)
 - $12.80 per set of 3
 
 | Top View          | Bottom View          |
@@ -29,7 +29,7 @@ Bill of Materials (Incomplete)
 | ------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
 | [PCB](https://oshpark.com/shared_projects/49H9UFFe)          | 1    | $4.27      | 3         | $12.80      |
 | [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) | 1    | $0.13      | 20        | $2.52       |
-| [Wago 2-terminal Screw Clamp](https://www.aliexpress.com/item/32700056337.html) | 1    | $0.02      | 100       | $1.95       |
+| [Wago 2-terminal Screw Clamp (KF301-2P)](https://www.aliexpress.com/item/32700056337.html) | 1    | $0.02      | 100       | $1.95       |
 | [4.7k Resistor](https://www.aliexpress.com/item/33025939683.html) | 1    | $0.01      | 100       | $0.44       |
 | [1uF Capacitor](https://www.aliexpress.com/item/4000395699194.html) | 2    | $0.02      | 100       | $1.10       |
 | [0.1uF Capacitor](https://www.aliexpress.com/item/4000395699194.html) | 2    | $0.02      | 100       | $0.84       |
@@ -55,4 +55,4 @@ This board is intended to be used with an additional "sensor breakout" PCB to wh
 
 This relay is intended to be connected to this board with two sets of dupont connectors: The first set (4 connectors) connect from the "RELAY" header to the 4-pin input-header on the relay. The second set (2 connectors) connects from the "PWR" header on the PCB. The +5v pin connects to the "JD-VCC" pin on the relay, and the GND pin connects to the GND pin next to the "JD-VCC" pin. **NOTE** - Save the jumper that previously connected the "VCC" and "JC-VCC" pins on the relay board (see below).
 
-This board allows for selectable voltage to the DS18b20 temperature sensors via the "ONEWIRE_VSEL" header. In order for the temperature sensor to work, you will need to power them. Use the jumper you removed  from the relay board to connect the "OW" pin to either 5V or 3v3. Generally, 5v is the best choice, but there are some sensors that require 3v3 to work. The recommendation is to start with 5v and switch to 3v3 if your sensors do not work with 5v.
+This board allows for selectable voltage to the DS18b20 temperature sensors via the "ONEWIRE_VSEL" header. In order for the temperature sensors to work, you will need to power them. Use the jumper you removed from the relay board to connect the "OW" pin to either 5V or 3v3. Generally 5v is the best choice but there are some sensors that require 3v3 to work. The recommendation is to start with 5v and switch to 3v3 if your sensors do not work with 5v.

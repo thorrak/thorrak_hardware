@@ -21,9 +21,9 @@ The BOM links provided are intended to serve as examples of the parts needed and
 | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------------ | -------------------------- |
 | [Surface Mount](D1%20-%20SMD.md)                             | [Order](https://oshpark.com/shared_projects/sZcIGxXP) |                    | :heavy_check_mark: | :heavy_check_mark: | Dupont          | :heavy_check_mark:       | :heavy_check_mark:         |
 | [TH - Sparkfun /w Dupont](D1%20-%20LCD%20TH%20Dupont.md)     | [Order](https://oshpark.com/shared_projects/UGNmCb2S) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          | :heavy_check_mark:         |
-| [TH - MOSFETs](https://github.com/brewpi-remix/brewpi-pcb-rmx/tree/master/D1%20Breakout) | [Order](https://pcbs.io/share/z5JLZ)                  | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |                            |
-| [TH - Sparkfun /w Screw Terminals](D1%20-%20LCD%20TH%20Screws.md) | [Order](https://PCBs.io/share/4qpVq)                  | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          |                            |
-| [TH - No LCD](D1%20-%20No%20LCD.md)                          | [Order](https://PCBs.io/share/49yVo)                  | :heavy_check_mark: |                    |                    | Screw Terminals |                          |                            |
+| [TH - MOSFETs](https://github.com/brewpi-remix/brewpi-pcb-rmx/tree/master/ESP8266%20Boards/WeMos%20D1%20Mini%20Breakout) | [Order](https://pcbs.io/share/z5JLZ)*                 | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |                            |
+| [TH - Sparkfun /w Screw Terminals](D1%20-%20LCD%20TH%20Screws.md) | [Order](https://oshpark.com/shared_projects/XmBFHxT9) | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          |                            |
+| [TH - No LCD](D1%20-%20No%20LCD.md)                          | [Order](https://oshpark.com/shared_projects/49H9UFFe) | :heavy_check_mark: |                    |                    | Dupont          |                          |                            |
 
 
 Features Explained
