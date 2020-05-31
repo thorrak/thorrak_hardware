@@ -22,8 +22,8 @@ Order Links
 [bot]: imgs/LCD%20TH%20Screws%20Bottom.png "Board Bottom"
 
 
-Bill of Materials
------------------
+Bill of Materials (Incomplete)
+------------------------------
 
 | Part                                                                                              | Qty | Build Cost | Order Qty | Order Cost* |
 |---------------------------------------------------------------------------------------------------|-----|------------|-----------|-------------|
@@ -38,6 +38,18 @@ Bill of Materials
 - Total Build Cost (Min Order): $11.68 (Builds 4)
 
 There are sellers on AliExpress that sell "SparkFun"-style logic level converters -- If you order from one of these sellers, please be sure that the pinout is the same (HV on one side, LV on the other side, with GND and HV/LV in the middle).
+
+
+Old bill of materials (incomplete)
+----------------------------------
+
+1x [2-Pin 5mm Pitch Screw Terminal](https://www.aliexpress.com/item/100PCS-2-Pin-Screw-Terminal-Block-Connector-5mm-Pitch-Free-Shipping/32700056337.html)
+2x [4-Pin 5mm Pitch Screw Terminal](https://www.aliexpress.com/item/100-pcs-4-Pin-Screw-blue-PCB-Terminal-Block-Connector-5mm-Pitch/32658656423.html) (Alternatively, 4x 2-pin terminals)
+1x 4.7k 1/4 Watt Resistor
+1x [Sparkfun (or compatible) Level Shifter](https://www.aliexpress.com/item/1pcs-Logic-Level-Shifter-Bi-Directional-For-Arduino-Four-Way-Ttwo-Way-Logic-Level-Transformation-Module/32624272876.html)
+1x RJ-45 Jack
+1x [LOLIN D1 Mini ESP8266 board](https://wiki.wemos.cc/products:d1:d1_mini)
+
 
 
 Build Notes
