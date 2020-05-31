@@ -497,8 +497,8 @@ Grid 5.00 mm&lt;p&gt;
 <plain>
 <text x="71.12" y="38.1" size="1.778" layer="95">6 - Door
 5 - GND
-4 - OneWire
-3 - 5v</text>
+4 - OneWire Data
+3 - VCC (Voltage selected by controller board)</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="63.5" y="40.64" smashed="yes">
@@ -551,7 +551,7 @@ Grid 5.00 mm&lt;p&gt;
 <label x="50.8" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="VCC" class="0">
 <segment>
 <wire x1="45.72" y1="53.34" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>

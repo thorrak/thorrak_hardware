@@ -9,7 +9,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -63,24 +63,24 @@
 <wire x1="30.15" y1="3.81" x2="30.15" y2="43.17" width="0" layer="20"/>
 <wire x1="30.15" y1="43.17" x2="-1.27" y2="43.17" width="0" layer="20"/>
 <wire x1="-1.27" y1="43.17" x2="-1.27" y2="3.81" width="0" layer="20"/>
-<text x="24.765" y="31.115" size="1.016" layer="25" rot="R90" align="center-right">GND</text>
-<text x="3.175" y="26.67" size="1.016" layer="25" rot="R90" align="center-left">GND</text>
-<text x="5.715" y="26.67" size="1.016" layer="25" rot="R90" align="center-left">5V</text>
-<text x="22.225" y="31.115" size="1.016" layer="25" rot="R90" align="center-right">DOOR</text>
-<text x="8.255" y="26.67" size="1.016" layer="25" rot="R90" align="center-left">DATA</text>
-<text x="29.21" y="16.51" size="1.016" layer="26" rot="MR0">RJ-45 Pinout:
-3 - 5V (VCC)
-4 - OneWire
+<text x="24.765" y="31.115" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center-right">GND</text>
+<text x="3.175" y="26.67" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center-left">GND</text>
+<text x="5.715" y="26.67" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center-left">VCC</text>
+<text x="22.225" y="31.115" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center-right">DOOR</text>
+<text x="8.255" y="26.67" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center-left">DATA</text>
+<text x="29.21" y="16.51" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">RJ-45 Pinout:
+3 - VCC (3v3 or 5v)
+4 - OneWire Data
 5 - GND
 6 - Door</text>
-<text x="8.255" y="35.56" size="1.016" layer="25" rot="R90" align="center-left">DATA</text>
-<text x="5.715" y="35.56" size="1.016" layer="25" rot="R90" align="center-left">5V</text>
-<text x="3.175" y="35.56" size="1.016" layer="25" rot="R90" align="center-left">GND</text>
-<text x="29.21" y="26.67" size="1.016" layer="26" rot="MR0">RJ-45 Breakout Board
+<text x="8.255" y="35.56" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center-left">DATA</text>
+<text x="5.715" y="35.56" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center-left">VCC</text>
+<text x="3.175" y="35.56" size="1.016" layer="26" font="vector" ratio="12" rot="MR90" align="center-left">GND</text>
+<text x="29.21" y="26.67" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">RJ-45 Breakout Board
 v1.1 Top Routed
 @thorrak says hi</text>
-<text x="29.21" y="34.925" size="1.016" layer="25" rot="R90" align="center-right">GND</text>
-<text x="19.05" y="41.91" size="1.016" layer="25" rot="R90" align="center-right">DOOR</text>
+<text x="29.21" y="34.925" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center-right">GND</text>
+<text x="19.05" y="41.91" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center-right">DOOR</text>
 <rectangle x1="14.555471875" y1="24.240996875" x2="15.103090625" y2="24.244553125" layer="1"/>
 <rectangle x1="14.555471875" y1="24.244553125" x2="15.103090625" y2="24.248109375" layer="1"/>
 <rectangle x1="14.555471875" y1="24.248109375" x2="15.103090625" y2="24.251665625" layer="1"/>
@@ -12045,6 +12045,14 @@ v1.1 Top Routed
 <rectangle x1="14.815059375" y1="33.62528125" x2="15.014190625" y2="33.6288375" layer="1"/>
 <rectangle x1="14.84350625" y1="33.6288375" x2="14.9893" y2="33.63239375" layer="1"/>
 <rectangle x1="14.84350625" y1="33.63239375" x2="14.9893" y2="33.63595" layer="1"/>
+<text x="3.175" y="35.56" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center-left">GND</text>
+<text x="5.715" y="35.56" size="1.016" layer="26" font="vector" ratio="12" rot="MR90" align="center-left">VCC</text>
+<text x="5.715" y="26.67" size="1.016" layer="26" font="vector" ratio="12" rot="MR90" align="center-left">VCC</text>
+<text x="3.175" y="26.67" size="1.016" layer="26" font="vector" ratio="12" rot="MR90" align="center-left">GND</text>
+<text x="8.255" y="35.56" size="1.016" layer="26" font="vector" ratio="12" rot="MR90" align="center-left">DATA</text>
+<text x="8.255" y="26.67" size="1.016" layer="26" font="vector" ratio="12" rot="MR90" align="center-left">DATA</text>
+<text x="22.225" y="38.481" size="1.016" layer="26" font="vector" ratio="12" rot="MR90" align="center-right">DOOR</text>
+<text x="27.305" y="38.481" size="1.016" layer="26" font="vector" ratio="12" rot="MR90" align="center-right">GND</text>
 </plain>
 <libraries>
 <library name="con-tycoelectronics">
@@ -12433,7 +12441,7 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <wire x1="13.97" y1="19.685" x2="12.065" y2="21.59" width="1.27" layer="1"/>
 <wire x1="12.065" y1="21.59" x2="9.525" y2="21.59" width="1.27" layer="1"/>
 </signal>
-<signal name="5V">
+<signal name="VCC">
 <contactref element="JP2" pad="2"/>
 <contactref element="JP1" pad="2"/>
 <contactref element="JP3" pad="2"/>
