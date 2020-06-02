@@ -19,17 +19,23 @@ In order to assemble this case, you will need the following in addition to the f
 
 | Part                                                         | Qty Needed |
 | ------------------------------------------------------------ | ---------- |
-| Screws                                                       | 13         |
-| Nuts                                                         | 13         |
-| Rubber Feet (Optional)                                       | 4          |
+| [M3 Screws](https://www.amazon.com/Machine-Finish-Phillips-M3-0-5-Threaded/dp/B00F33TR9O/ref=sr_1_1?dchild=1&keywords=m3+pan+philips+12mm&qid=1591136043&sr=8-1) (12mm to 18mm lengths recommended) | 13         |
+| [M3 Nuts](https://www.amazon.com/Shapenty-100PCS-Stainless-Female-Fastener/dp/B071NLDW56/ref=sr_1_2?crid=1K1Q8HP9NJHDT&dchild=1&keywords=m3+nuts&qid=1591135900&s=hi&sprefix=m3+nuts%2Ctools%2C158&sr=1-2) | 13         |
+| [Rubber Feet](https://www.amazon.com/gp/product/B08118NL2B/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) (Optional) | 4          |
 | [US Duplex Outlet](https://www.homedepot.com/p/Leviton-15-Amp-Residential-Grade-Grounding-Duplex-Outlet-White-R52-05320-00W/202066670) | 1          |
 | [IEC-320 C14](https://www.aliexpress.com/item/32815198325.html) | 1          |
 | Wire                                                         | *          |
 | Wire Nuts/Terminal Blocks                                    | *          |
-| Wire Crimp Ends (Optional)                                   | 3          |
+| [Female "Quick Connectors"](https://www.homedepot.com/p/CURT-Female-Quick-Connectors-16-14-Wire-Gauge-100-Pack-59592/205632800) (Optional) | 3          |
 
 - Also needed (not listed) is one of the two screws that typically comes attached to the top/bottom of the US Duplex Outlet
 - The rubber feet, while not required, are highly recommended to prevent the screw heads from resting on the ground
 - The optional wire crimp ends are used to easily connect wires to the IEC-320 C14 power inlet
 - For all of these components, please keep in mind that you will be powering devices that can pull several amps of current. Be certain to select the appropriate gauge of wire for your build. 
+
+
+
+## Assembly Instructions
+
+Unfortunately, I haven't written recent assembly instructions. An old version (using panel-mount jacks which are no longer recommended) can be found here: http://tinybat.ch/2016/11/brewpi-esp8266-enclosure-assembly/
 

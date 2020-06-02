@@ -534,40 +534,40 @@ Grid 5.00 mm&lt;p&gt;
 <nets>
 <net name="ONEWIRE" class="0">
 <segment>
-<wire x1="43.18" y1="76.2" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="55.88" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
-<label x="35.56" y="76.2" size="1.778" layer="95"/>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="43.18" y1="40.64" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<junction x="43.18" y="55.88"/>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="27.94" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="3"/>
-<wire x1="27.94" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="73.66" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
+<label x="35.56" y="73.66" size="1.778" layer="95"/>
+<wire x1="43.18" y1="53.34" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="60.96" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
-<junction x="43.18" y="40.64"/>
 <label x="50.8" y="40.64" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="43.18" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="43.18" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<junction x="43.18" y="53.34"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="27.94" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="33.02" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
+<junction x="43.18" y="40.64"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<wire x1="45.72" y1="53.34" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="33.02" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
-<label x="35.56" y="73.66" size="1.778" layer="95"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="45.72" y1="43.18" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
-<junction x="45.72" y="53.34"/>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="27.94" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="45.72" y1="43.18" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="55.88" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<label x="35.56" y="76.2" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="35.56" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 <junction x="45.72" y="43.18"/>
 <label x="53.34" y="43.18" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="27.94" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="27.94" y1="55.88" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
+<junction x="45.72" y="55.88"/>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="45.72" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -618,6 +618,13 @@ Grid 5.00 mm&lt;p&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,27.7029,72.1944,JP1,,,,,"/>
+<approved hash="113,1,27.7029,51.8744,JP2,,,,,"/>
+<approved hash="113,1,27.7029,31.5544,JP3,,,,,"/>
+<approved hash="113,1,63.7371,66.2356,JP4,,,,,"/>
+<approved hash="113,1,74.484,53.34,X1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

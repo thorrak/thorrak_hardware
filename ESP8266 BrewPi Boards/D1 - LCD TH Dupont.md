@@ -22,7 +22,7 @@ Order Links
 [bot]: imgs/LCD%20TH%20Dupont%20Bottom.png "Board Bottom"
 
 
-Bill of Materials (Incomplete)
+Bill of Materials
 ------------------------------
 
 | Part                                                         | Qty  | Build Cost | Order Qty | Order Cost* |
