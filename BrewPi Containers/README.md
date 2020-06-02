@@ -1,8 +1,6 @@
 # BrewPi-ESP Containers
 
-
-
-There are two types of container designs that I have for the BrewPi-ESP Project. You will likely need one of each:
+There are two types of 3D-printable container designs for the BrewPi-ESP Project. You will likely need one of each:
 
 
 

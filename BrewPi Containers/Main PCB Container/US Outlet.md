@@ -39,3 +39,15 @@ In order to assemble this case, you will need the following in addition to the f
 
 Unfortunately, I haven't written recent assembly instructions. An old version (using panel-mount jacks which are no longer recommended) can be found here: http://tinybat.ch/2016/11/brewpi-esp8266-enclosure-assembly/
 
+Generally, assembly is pretty simple. Looking at the front of the case, the US Duplex Outlet goes on the left side (it should fit nicely into the holes in the case) and the IEC-320 C14 inlet goes on the right. The modules are organized inside the case as follows:
+
+(**TODO** - Insert photo here. In the mean time, imagine a photo, where on the left is the PSU, the middle is the relay, and on the right is the "main" PCB assembly)
+
+The M3 Screws/nuts are used to attach all of the components to the case, and the rubber feet are attached to the bottom of the case. Notes on the screws:
+
+- The PSU can be attached with either 2 or 4 screws, depending on the PSU used
+- The relay boards almost always can only be attached with 2 screws
+- The case design has 3 posts for the "main" PCB - Your PCB may only use 2 of the 3. This is expected.
+- The US outlet is secured at the top & bottom using M3 Screws/Nuts. One of the screws that were attached to the outlet when originally purchased screws through the center of the outlet to secure it to the case 
+
+ 
