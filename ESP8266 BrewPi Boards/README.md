@@ -11,18 +11,25 @@ Five different versions of the main "controller" PCB are listed here.  Each prov
 *   LCD Support with screw connectors, through-hole components, and a SparkFun-based level converter sub-board
 *   LCD Support with DuPont connectors, through-hole components, and an integrated level converter
 
-You may either purchase the boards through OshPark using the links provided or you may download and use the Eagle files provided with a board supplier of your choice.  OshPark tends to be one of the more expensive board aggregators, but also happens to be one of the faster/more reliable ones.
-
-The BOM links provided are intended to serve as examples of the parts needed and are not the only place to source the parts listed.  Generally speaking, AliExpress is less expensive for parts.  The trade-off is that sometimes you are buying 100 at a time, and in most cases you are waiting for shipping.  Mouser or other project part suppliers will probably have these parts as well.
-
 
 | Board Design                                                 | Order Link                                            | Through Hole       | Surface Mount      | I2C LCD            | Connector Type  | Integrated Level Shifter | Selectable OneWire Voltage |
 | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------------ | -------------------------- |
 | [Surface Mount](D1%20-%20SMD.md)                             | [Order](https://oshpark.com/shared_projects/sZcIGxXP) |                    | :heavy_check_mark: | :heavy_check_mark: | Dupont          | :heavy_check_mark:       | :heavy_check_mark:         |
-| [TH - Sparkfun /w Dupont](D1%20-%20LCD%20TH%20Dupont.md)     | [Order](https://oshpark.com/shared_projects/UGNmCb2S) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          | :heavy_check_mark:         |
+| [TH - Sparkfun /w Dupont Cables](D1%20-%20LCD%20TH%20Dupont.md) | [Order](https://oshpark.com/shared_projects/ZyUfectQ) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          | :heavy_check_mark:         |
 | [TH - MOSFETs](https://github.com/brewpi-remix/brewpi-pcb-rmx/tree/master/ESP8266%20Boards/WeMos%20D1%20Mini%20Breakout) | [Order](https://pcbs.io/share/z5JLZ)*                 | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |                            |
-| [TH - Sparkfun /w Screw Terminals](D1%20-%20LCD%20TH%20Screws.md) | [Order](https://oshpark.com/shared_projects/XmBFHxT9) | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          |                            |
-| [TH - No LCD](D1%20-%20No%20LCD.md)                          | [Order](https://oshpark.com/shared_projects/49H9UFFe) | :heavy_check_mark: |                    |                    | Dupont          |                          |                            |
+| [TH - Sparkfun /w Screw Terminals](D1%20-%20LCD%20TH%20Screws.md) | [Order](https://oshpark.com/shared_projects/OmKNGkVm) | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          |                            |
+| [TH - No LCD](D1%20-%20No%20LCD.md)                          | [Order](https://oshpark.com/shared_projects/TOON0jUw) | :heavy_check_mark: |                    |                    | Dupont          |                          |                            |
+
+
+
+### About Parts Links, Order Links, & Vendors
+
+The BOM links provided are intended to serve as examples of the parts needed and are not the only place to source the parts listed.  Generally speaking, AliExpress is less expensive for parts.  The trade-off is that sometimes you are buying 100 at a time, and in most cases you are waiting for shipping.  Mouser or other project part suppliers will probably have these parts as well and can generally ship much faster (albeit at much higher cost). 
+
+For convenience, order links are provided on each of the PCB's pages to a handful of PCB vendors. OshPark tends to be one of the more expensive board aggregators, but also happens to be one of the faster/more reliable ones. DirtyPCBs tends to be cheaper (especially when ordering in bulk) but ship from China and can take awhile to arrive. When I have PCBs either available or left over, I sometimes offer them for sale on Tindie - when you purchase through Tindie you are receiving a board or parts directly from me. 
+
+The direct links to DirtyPCBs include a small premium (10%) which is credited into my DirtyPCBs account. That credit is used in the development of these and other projects. Anyone who has done development like this can tell you how many boards we go through, and the cost is not insignificant. If you prefer to avoid this markup you may absolutely take these files from GitHub and upload them yourself. In the spirit of transparency, If you do purchase through these links it's only fair I tell you about it and what I will do with the credits.
+
 
 
 Features Explained

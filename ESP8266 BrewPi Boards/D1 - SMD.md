@@ -9,10 +9,14 @@ This board does not have terminals for directly connecting temperature sensors -
 Order Links
 -----------
 
-[Order from OshPark](https://oshpark.com/shared_projects/sZcIGxXP):
+2 Layer Board - 1.72 x 1.73 in (43.6 x 43.9 mm)
 
-- 2 Layer Board - 1.72 x 1.73 in (43.6 x 43.9 mm)
-- $14.80 per set of 3
+| Vendor/Aggregator                                       | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
+| ------------------------------------------------------- | ------------ | ---------- | ---------- | -------------- |
+| [OshPark](https://oshpark.com/shared_projects/sZcIGxXP) | 3            | $4.94      | $14.80     | < 3 weeks      |
+| DirtyPCBs                                               | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
+
+- Dirty PCBs does not include shipping
 
 | Top View          | Bottom View          |
 | ----------------- |:--------------------:|

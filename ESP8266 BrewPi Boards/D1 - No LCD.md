@@ -9,10 +9,14 @@ This board does not have terminals for directly connecting temperature sensors -
 Order Links
 -----------
 
-[Order from OshPark](https://oshpark.com/shared_projects/49H9UFFe):
+2 Layer Board - 1.77 x 1.34 in (45.0mm x 34.1 mm)
 
-- 2 Layer Board - 1.79 x 1.44 in (45.3mm x 36.5 mm)
-- $12.80 per set of 3
+| Vendor/Aggregator                                            | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
+| ------------------------------------------------------------ | ------------ | ---------- | ---------- | -------------- |
+| [OshPark](https://oshpark.com/shared_projects/TOON0jUw)      | 3            | $3.95      | $11.85     | < 3 weeks      |
+| [DirtyPCBs](https://dirtypcbs.com/store/designer/details/Thorrak/6449/brewpi-esp8266-no-lcd-v1-1) | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
+
+- Dirty PCBs does not include shipping
 
 | Top View          | Bottom View          |
 | ----------------- |:--------------------:|
@@ -22,27 +26,27 @@ Order Links
 [bot]: imgs/No%20LCD%20Bottom.png "Board Bottom"
 
 
-Bill of Materials (Incomplete)
+Bill of Materials
 ------------------------------
 
 | Part                                                         | Qty  | Build Cost | Order Qty | Order Cost* |
 | ------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
-| [PCB](https://oshpark.com/shared_projects/49H9UFFe)          | 1    | $4.27      | 3         | $12.80      |
+| [PCB](https://oshpark.com/shared_projects/TOON0jUw)          | 1    | $3.95      | 3         | $11.85      |
 | [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) | 1    | $0.13      | 20        | $2.52       |
 | [Wago 2-terminal Screw Clamp (KF301-2P)](https://www.aliexpress.com/item/32700056337.html) | 1    | $0.02      | 100       | $1.95       |
 | [4.7k Resistor](https://www.aliexpress.com/item/33025939683.html) | 1    | $0.01      | 100       | $0.44       |
 | [1uF Capacitor](https://www.aliexpress.com/item/4000395699194.html) | 2    | $0.02      | 100       | $1.10       |
 | [0.1uF Capacitor](https://www.aliexpress.com/item/4000395699194.html) | 2    | $0.02      | 100       | $0.84       |
-| [4-Pin Male Pin Header](https://www.aliexpress.com/item/32993182990.html) | 2    | $0.10*     | 400*      | $0.97*      |
+| [4-Pin Male Pin Header](https://www.aliexpress.com/item/32993182990.html) | 1    | $0.10*     | 400*      | $0.97*      |
 | [3-Pin Male Pin Header](https://www.aliexpress.com/item/32993182990.html) | 1    | --         | --        | *           |
 | [2-Pin Male Pin Header](https://www.aliexpress.com/item/32993182990.html) | 1    | --         | --        | *           |
 | [8-Pin Female Pin Header](https://www.aliexpress.com/item/32993182990.html) | 2    | **         | **        | **          |
 
-* Total Build Cost (Individual): $1.95
-* Total Build Cost (Min Order): $11.68 (Builds 3)
+* Total Build Cost (Individual): $4.25
+* Total Build Cost (Min Order): $19.67 (Builds 3)
 * Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping.
 
-- Male pin headers typically come in strips of 40 - Price listed above is for an order of 10 strips of 40 (one strip of which is more than enough for the 13 pins required for this project)
+- Male pin headers typically come in strips of 40 - Price listed above is for an order of 10 strips of 40 (one strip of which is more than enough for the 9 pins required for this project)
 - The 2 Female pin headers noted above are typically included with the D1 Mini, and thus are not included in the price
 - In addition to the parts list above a complete build requires a set of [Common Components](Common%20Components.md) and the appropriate [Sensor Board](../BrewPi%20Sensor%20Boards/README.md)
 

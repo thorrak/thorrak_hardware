@@ -12250,47 +12250,6 @@ Grid 5.00 mm&lt;p&gt;
 </package>
 </packages>
 </library>
-<library name="con-tycoelectronics" urn="urn:adsk.eagle:library:193">
-<description>&lt;b&gt;Tyco Electronics Connector&lt;/b&gt;&lt;p&gt;
-http://catalog.tycoelectronics.com&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="RJ45-NO-SHIELD" urn="urn:adsk.eagle:footprint:10651/1" library_version="2">
-<description>&lt;b&gt;RJ45 Low Profile&lt;/b&gt; No Shield&lt;p&gt;
-For all RJ45 N and Z Series Models&lt;br&gt;
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<wire x1="-7.527" y1="10.819" x2="7.527" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="8.4455" y1="-5.5118" x2="-8.4455" y2="-5.5118" width="0.01" layer="20"/>
-<wire x1="7.527" y1="-7.782" x2="-7.527" y2="-7.782" width="0.2032" layer="21"/>
-<wire x1="-7.527" y1="-7.782" x2="-7.527" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="7.527" y1="10.819" x2="7.527" y2="-7.782" width="0.2032" layer="21"/>
-<pad name="4" x="-0.635" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="3" x="-1.905" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="2" x="-3.175" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="5" x="0.635" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="1" x="-4.445" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="6" x="1.905" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="7" x="3.175" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="8" x="4.445" y="8.89" drill="0.9" diameter="1.4"/>
-<text x="-9.525" y="-0.635" size="1.778" layer="25" rot="R90">&gt;NAME</text>
-<text x="-5.715" y="2.54" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="7.6" y1="-5.485" x2="8.875" y2="-4.342" layer="21"/>
-<rectangle x1="-8.875" y1="-5.485" x2="-7.625" y2="-4.342" layer="21"/>
-<hole x="-5.715" y="0" drill="3.2512"/>
-<hole x="5.715" y="0" drill="3.2512"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="RJ45-NO-SHIELD" urn="urn:adsk.eagle:package:10660/1" type="box" library_version="2">
-<description>RJ45 Low Profile No Shield
-For all RJ45 N and Z Series Models
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<packageinstances>
-<packageinstance name="RJ45-NO-SHIELD"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -13489,7 +13448,40 @@ grid 5 mm, outline 3 x 7.5 mm</description>
 <rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
 <rectangle x1="2.2352" y1="-0.3048" x2="2.8448" y2="0.3048" layer="51"/>
 </package>
+<package name="RJ45-NS-XDIM" urn="urn:adsk.eagle:footprint:10651/1" locally_modified="yes">
+<description>&lt;b&gt;RJ45 Low Profile&lt;/b&gt; No Shield&lt;p&gt;
+For all RJ45 N and Z Series Models&lt;br&gt;
+Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
+<wire x1="-7.527" y1="10.819" x2="7.527" y2="10.819" width="0.2032" layer="21"/>
+<wire x1="7.527" y1="-7.782" x2="-7.527" y2="-7.782" width="0.2032" layer="21"/>
+<wire x1="-7.527" y1="-7.782" x2="-7.527" y2="10.819" width="0.2032" layer="21"/>
+<wire x1="7.527" y1="10.819" x2="7.527" y2="-7.782" width="0.2032" layer="21"/>
+<pad name="4" x="-0.635" y="8.89" drill="0.9" diameter="1.4"/>
+<pad name="3" x="-1.905" y="6.35" drill="0.9" diameter="1.4"/>
+<pad name="2" x="-3.175" y="8.89" drill="0.9" diameter="1.4"/>
+<pad name="5" x="0.635" y="6.35" drill="0.9" diameter="1.4"/>
+<pad name="1" x="-4.445" y="6.35" drill="0.9" diameter="1.4"/>
+<pad name="6" x="1.905" y="8.89" drill="0.9" diameter="1.4"/>
+<pad name="7" x="3.175" y="6.35" drill="0.9" diameter="1.4"/>
+<pad name="8" x="4.445" y="8.89" drill="0.9" diameter="1.4"/>
+<text x="-9.525" y="-0.635" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="-5.715" y="2.54" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="7.6" y1="-5.485" x2="8.875" y2="-4.342" layer="21"/>
+<rectangle x1="-8.875" y1="-5.485" x2="-7.625" y2="-4.342" layer="21"/>
+<hole x="-5.715" y="0" drill="3.2512"/>
+<hole x="5.715" y="0" drill="3.2512"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="RJ45-NO-SHIELD" urn="urn:adsk.eagle:package:10660/1" type="box">
+<description>RJ45 Low Profile No Shield
+For all RJ45 N and Z Series Models
+Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
+<packageinstances>
+<packageinstance name="RJ45-NS-XDIM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -13702,7 +13694,7 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <attribute name="OC_NEWARK" value="70K9898" x="7.62" y="30.48" size="0.8128" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="5.12" y="24.765" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="J1" library="con-tycoelectronics" library_urn="urn:adsk.eagle:library:193" package="RJ45-NO-SHIELD" package3d_urn="urn:adsk.eagle:package:10660/1" value="RJ45-8X" x="8.26" y="3.155" smashed="yes">
+<element name="J1" library="Donnie" package="RJ45-NS-XDIM" package3d_urn="urn:adsk.eagle:package:10660/1" value="RJ45-8X" x="8.26" y="3.155" smashed="yes">
 <attribute name="MF" value="" x="8.26" y="3.155" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RJ45-8X" x="8.26" y="3.155" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15.245" y="6.33" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
@@ -13781,8 +13773,22 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <wire x1="3.81" y1="24.13" x2="3.81" y2="30.44" width="0.6096" layer="1"/>
 <wire x1="3.81" y1="30.44" x2="5.12" y2="31.75" width="0.6096" layer="1"/>
 <wire x1="3.81" y1="19.685" x2="3.81" y2="24.13" width="0.6096" layer="1"/>
-<wire x1="8.895" y1="9.505" x2="31.115" y2="9.525" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="19.685" x2="8.895" y2="9.505" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="19.685" x2="3.81" y2="16.51" width="0.6096" layer="1"/>
+<wire x1="3.81" y1="16.51" x2="1.905" y2="14.605" width="0.6096" layer="1"/>
+<wire x1="1.905" y1="14.605" x2="1.905" y2="8.255" width="0.6096" layer="1"/>
+<wire x1="1.905" y1="8.255" x2="3.81" y2="6.35" width="0.6096" layer="1"/>
+<wire x1="3.81" y1="6.35" x2="7.62" y2="6.35" width="0.6096" layer="1"/>
+<wire x1="8.895" y1="9.505" x2="8.895" y2="7.625" width="0.6096" layer="1"/>
+<wire x1="7.62" y1="6.35" x2="8.895" y2="7.625" width="0.6096" layer="1"/>
+<wire x1="8.895" y1="7.625" x2="9.535" y2="6.985" width="0.6096" layer="1"/>
+<wire x1="9.535" y1="6.985" x2="15.24" y2="6.985" width="0.6096" layer="1"/>
+<wire x1="15.24" y1="6.985" x2="17.145" y2="5.08" width="0.6096" layer="1"/>
+<wire x1="17.145" y1="5.08" x2="17.145" y2="2.54" width="0.6096" layer="1"/>
+<wire x1="17.145" y1="2.54" x2="17.78" y2="1.905" width="0.6096" layer="1"/>
+<wire x1="17.78" y1="1.905" x2="22.86" y2="1.905" width="0.6096" layer="1"/>
+<wire x1="22.86" y1="1.905" x2="29.845" y2="8.89" width="0.6096" layer="1"/>
+<wire x1="29.845" y1="8.89" x2="29.845" y2="9.525" width="0.6096" layer="1"/>
+<wire x1="29.845" y1="9.525" x2="31.115" y2="9.525" width="0.6096" layer="1"/>
 </signal>
 <signal name="5V" class="1">
 <contactref element="U$1" pad="5V"/>

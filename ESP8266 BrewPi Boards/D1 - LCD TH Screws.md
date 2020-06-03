@@ -9,10 +9,14 @@ This board does not have terminals for directly connecting temperature sensors -
 Order Links
 -----------
 
-[Order from OshPark](https://oshpark.com/shared_projects/XmBFHxT9):
+2 Layer Board - 1.85 x 2.27 in (46.9 x 57.6 mm)
 
-- 2 Layer Board - 1.86 x 2.36 in (47.2 x 60.0 mm)
-- $21.95 per set of 3
+| Vendor/Aggregator                                            | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
+| ------------------------------------------------------------ | ------------ | ---------- | ---------- | -------------- |
+| [OshPark](https://oshpark.com/shared_projects/OmKNGkVm)      | 3            | $6.97      | $20.90     | < 3 weeks      |
+| [DirtyPCBs](https://dirtypcbs.com/store/designer/details/Thorrak/6451/brewpi-esp8266-lcd-th-screws-v1-1) | +/-10        | $1.87      | $18.65*    | > 6 weeks      |
+
+- Dirty PCBs does not include shipping
 
 | Top View          | Bottom View          |
 | ----------------- |:--------------------:|
@@ -22,12 +26,12 @@ Order Links
 [bot]: imgs/LCD%20TH%20Screws%20Bottom.png "Board Bottom"
 
 
-Bill of Materials (Incomplete)
+Bill of Materials
 ------------------------------
 
 | Part                                                         | Qty  | Build Cost | Order Qty | Order Cost* |
 | ------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
-| [PCB](https://oshpark.com/shared_projects/XmBFHxT9)          | 1    | $7.32      | 3         | $21.95      |
+| [PCB](https://oshpark.com/shared_projects/OmKNGkVm)          | 1    | $6.97      | 3         | $20.90      |
 | [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) | 1    | $0.13      | 20        | $2.52       |
 | [Wago 2-terminal Screw Clamp (KF301-2P)](https://www.aliexpress.com/item/32700056337.html) | 1    | $0.02      | 100       | $1.95       |
 | [Wago 4-terminal Screw Clamp (KF301-4P)](https://www.aliexpress.com/item/32828459901.html) | 2    | $0.24      | 10        | $1.20       |

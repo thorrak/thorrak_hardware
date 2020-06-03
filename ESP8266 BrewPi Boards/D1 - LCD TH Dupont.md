@@ -9,10 +9,14 @@ This board does not have terminals for directly connecting temperature sensors -
 Order Links
 -----------
 
-[Order from OshPark](https://oshpark.com/shared_projects/UGNmCb2S):
+2 Layer Board - 1.82 x 1.97 in (46.3 x 50.0 mm)
 
-- 2 Layer Board - 1.86 x 2.09 in (47.2 x 53.0 mm)
-- $19.35 per set of 3
+| Vendor/Aggregator                                            | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
+| ------------------------------------------------------------ | ------------ | ---------- | ---------- | -------------- |
+| [OshPark](https://oshpark.com/shared_projects/ZyUfectQ)      | 3            | $5.98      | $17.95     | < 3 weeks      |
+| [DirtyPCBs](https://dirtypcbs.com/store/designer/details/Thorrak/6448/brewpi-esp8266-lcd-th-dupont-v1-1) | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
+
+- Dirty PCBs does not include shipping
 
 | Top View          | Bottom View          |
 | ----------------- |:--------------------:|
@@ -27,7 +31,7 @@ Bill of Materials
 
 | Part                                                         | Qty  | Build Cost | Order Qty | Order Cost* |
 | ------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
-| [PCB](https://oshpark.com/shared_projects/UGNmCb2S)          | 1    | $6.45      | 3         | $19.35      |
+| [PCB](https://oshpark.com/shared_projects/ZyUfectQ)          | 1    | $5.98      | 3         | $17.95      |
 | [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) | 1    | $0.13      | 20        | $2.52       |
 | [Wago 2-terminal Screw Clamp (KF301-2P)](https://www.aliexpress.com/item/32700056337.html) | 1    | $0.02      | 100       | $1.95       |
 | [SparkFun Logic Level Converter](https://www.sparkfun.com/products/12009) | 1    | $2.51      | 1         | $2.51       |
@@ -40,8 +44,8 @@ Bill of Materials
 | [8-Pin Female Pin Header](https://www.aliexpress.com/item/32993182990.html) | 2    | **         | **        | **          |
 | [6-Pin Female Pin Header (Optional)](https://www.aliexpress.com/item/32993182990.html) | 2    | $0.10      | 400*      | $1.95*      |
 
-* Total Build Cost (Individual): $9.26
-* Total Build Cost (Min Order): $29.68 (Builds 3)
+* Total Build Cost (Individual): $8.79
+* Total Build Cost (Min Order): $28.28 (Builds 3)
 * Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping.
 
 - Male pin headers typically come in strips of 40 - Price listed above is for an order of 10 strips of 40 (one strip of which is more than enough for the 13 pins required for this project)
