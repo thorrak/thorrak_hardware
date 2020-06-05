@@ -9,7 +9,7 @@ All the up-to-date "main" controller board designs use RJ-45 jacks and are inten
 
 | Design                                               | Order                                                 | Jack Type | Cost from OshPark |
 | ---------------------------------------------------- | ----------------------------------------------------- | --------- | ----------------- |
-| [RJ-45 Breakout Board](RJ-45%20Sensor%20Breakout.md) | [Order](https://oshpark.com/shared_projects/3N0xLoYk) | RJ-45     | $9.70 (for 3)     |
+| [RJ-45 Breakout Board](RJ-45%20Sensor%20Breakout.md) | [Order](https://oshpark.com/shared_projects/5gqoDyRn) | RJ-45     | $9.60 (for 3)     |
 
 
 

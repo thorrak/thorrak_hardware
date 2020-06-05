@@ -8,7 +8,7 @@ Temperature sensors are intended to be connected directly to the board, and the 
 Order Links
 -----------
 
-[Order from OshPark](https://oshpark.com/shared_projects/3N0xLoYk):
+[Order from OshPark](https://oshpark.com/shared_projects/5gqoDyRn):
 
 - 2 Layer Board - 1.24 x 1.57 in (31.5 x 39.8 mm)
 - $9.70 per set of 3
@@ -26,7 +26,7 @@ Bill of Materials
 
 | Part                                                         | Qty  | Build Cost | Order Qty | Order Cost* |
 | ------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
-| [PCB](https://oshpark.com/shared_projects/3N0xLoYk)          | 1    | $3.23      | 4         | $9.70       |
+| [PCB](https://oshpark.com/shared_projects/5gqoDyRn)          | 1    | $3.20      | 4         | $9.60       |
 | [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) (J1) | 1    | $0.13      | 20        | $2.52       |
 | [Wago 2-terminal Screw Clamp](https://www.aliexpress.com/item/32700056337.html) (X1) (Optional) | 1    | $0.02      | 100       | $1.95       |
 
