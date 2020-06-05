@@ -11,10 +11,10 @@ Order Links
 
 2 Layer Board - 1.72 x 1.73 in (43.6 x 43.9 mm)
 
-| Vendor/Aggregator                                       | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
-| ------------------------------------------------------- | ------------ | ---------- | ---------- | -------------- |
-| [OshPark](https://oshpark.com/shared_projects/sZcIGxXP) | 3            | $4.94      | $14.80     | < 3 weeks      |
-| DirtyPCBs                                               | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
+| Vendor/Aggregator                                            | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
+| ------------------------------------------------------------ | ------------ | ---------- | ---------- | -------------- |
+| [OshPark](https://oshpark.com/shared_projects/sZcIGxXP)      | 3            | $4.94      | $14.80     | < 3 weeks      |
+| [DirtyPCBs](https://dirtypcbs.com/store/designer/details/Thorrak/6453/brewpi-esp8266-smd-v1-1) | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
 
 - Dirty PCBs does not include shipping
 
