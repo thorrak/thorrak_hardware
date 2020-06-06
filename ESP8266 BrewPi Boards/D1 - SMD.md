@@ -17,6 +17,7 @@ Order Links
 | [DirtyPCBs](https://dirtypcbs.com/store/designer/details/Thorrak/6453/brewpi-esp8266-smd-v1-1) | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
 
 - Dirty PCBs does not include shipping
+- I have an older, "beta" version of the board [available on Tindie](https://www.tindie.com/products/thorrak/brewpi-esp8266-beta-smd-pcb/) for those interested in faster shipping (or a fully soldered board)
 
 | Top View          | Bottom View          |
 | ----------------- |:--------------------:|
