@@ -8,10 +8,16 @@ Temperature sensors are intended to be connected directly to the board, and the 
 Order Links
 -----------
 
-[Order from OshPark](https://oshpark.com/shared_projects/5gqoDyRn):
+2 Layer Board - 1.24 x 1.55 in (31.5 x 39.4 mm)
 
-- 2 Layer Board - 1.24 x 1.57 in (31.5 x 39.8 mm)
-- $9.70 per set of 3
+| Vendor/Aggregator                                            | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
+| ------------------------------------------------------------ | ------------ | ---------- | ---------- | -------------- |
+| [OshPark](https://oshpark.com/shared_projects/5gqoDyRn)      | 3            | $3.20      | $9.60      | < 3 weeks      |
+| [DirtyPCBs](https://dirtypcbs.com/store/designer/details/Thorrak/6454/brewpi-esp-rj45-sensor-breakout-board-v1-1) | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
+| [Tindie](https://www.tindie.com/products/thorrak/brewpi-esp-rj45-sensor-breakout-board-v10-pcb/)* | 1            | $3.50      | $3.50      | < 1 week       |
+
+- Dirty PCBs does not include shipping
+- The board listed on [Tindie](https://www.tindie.com/products/thorrak/brewpi-esp-rj45-sensor-breakout-board-v10-pcb/) is the older, v1.0 version of the board (does not include silkscreen on back, has slightly different pin order, and has the VCC lines labeled as 3v3)
 
 | Top View          | Bottom View          |
 | ----------------- |:--------------------:|
@@ -26,15 +32,16 @@ Bill of Materials
 
 | Part                                                         | Qty  | Build Cost | Order Qty | Order Cost* |
 | ------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
-| [PCB](https://oshpark.com/shared_projects/5gqoDyRn)          | 1    | $3.20      | 4         | $9.60       |
+| [PCB](https://oshpark.com/shared_projects/5gqoDyRn)          | 1    | $3.20      | 3         | $9.60       |
 | [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) (J1) | 1    | $0.13      | 20        | $2.52       |
 | [Wago 2-terminal Screw Clamp](https://www.aliexpress.com/item/32700056337.html) (X1) (Optional) | 1    | $0.02      | 100       | $1.95       |
 
 * Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping.
 
-- Total Build Cost (Individual): $3.38 (excluding temp sensors)
-- Total Build Cost (Min Order): $14.17 (Builds 3 excluding temp sensors)
-- This board requires a "straight-through" ethernet cable to connect to the main 
+- Total Build Cost (Individual): $3.35 (excluding temp sensors)
+- Total Build Cost (Min Order): $14.07 (Builds 3 excluding temp sensors)
+- This board requires a "straight-through" ethernet cable to connect to the main controller PCB
+- The jack and screw clamp are also [available on Tindie](https://www.tindie.com/products/thorrak/brewpi-esp-sensor-breakout-pcb-materials/) for purchase as a kit
 - You will also need 1-3 temperature sensors (see below)
 
 ### Temperature Sensors
