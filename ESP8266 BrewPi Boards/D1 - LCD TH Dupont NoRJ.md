@@ -31,7 +31,7 @@ Bill of Materials
 
 | Part                                                                                       | Qty  | Build Cost | Order Qty | Order Cost* |
 | ------------------------------------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
-| [PCB](https://oshpark.com/shared_projects/ZyUfectQ)                                        | 1    | $5.98      | 3         | $17.95      |
+| [PCB](https://oshpark.com/shared_projects/hdqCEBHe)                                        | 1    | $5.98      | 3         | $17.95      |
 | [Wago 2-terminal Screw Clamp (KF301-2P)](https://www.aliexpress.com/item/32700056337.html) | 1    | $0.02      | 100       | $1.95       |
 | [SparkFun Logic Level Converter](https://www.sparkfun.com/products/12009)                  | 1    | $2.51      | 1         | $2.51       |
 | [1uF Capacitor](https://www.aliexpress.com/item/4000395699194.html)                        | 2    | $0.02      | 100       | $1.10       |
