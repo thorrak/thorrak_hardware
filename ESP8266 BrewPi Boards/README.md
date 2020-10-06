@@ -3,22 +3,24 @@ ESP8266 BrewPi Controller Boards
 
 Although the "heart" of a BrewPi controller is the microprocessor running the BrewPi-compatible firmware, without other connected components that microcontroller cannot sense temperature, control power, or do any of the other things that make a temperature controller useful. Several PCBs have been designed to help simplify the wiring of the microcontroller to those other components.
 
-Five different versions of the main "controller" PCB are listed here.  Each provide different functionality and/or form factors:
+Six different versions of the main "controller" PCB are listed here.  Each provide different functionality and/or form factors:
 
 *   No LCD Support with DuPont connectors and through-hole components
 *   LCD Support with DuPont connectors and surface-mount level converter components
 *   LCD Support with DuPont connectors, through-hole components, and a SparkFun-based level converter sub-board
 *   LCD Support with screw connectors, through-hole components, and a SparkFun-based level converter sub-board
 *   LCD Support with DuPont connectors, through-hole components, and an integrated level converter
+*   LCD Support with DuPont connectors, through-hole components, a SparkFun-based level converter sub-board, and direct connections for temperature sensors
 
 
-| Board Design                                                 | Order Link                                            | Through Hole       | Surface Mount      | I2C LCD            | Connector Type  | Integrated Level Shifter | Selectable OneWire Voltage |
-| ------------------------------------------------------------ | ----------------------------------------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------------ | -------------------------- |
-| [Surface Mount](D1%20-%20SMD.md)                             | [Order](https://oshpark.com/shared_projects/sZcIGxXP) |                    | :heavy_check_mark: | :heavy_check_mark: | Dupont          | :heavy_check_mark:       | :heavy_check_mark:         |
-| [TH - Sparkfun /w Dupont Cables](D1%20-%20LCD%20TH%20Dupont.md) | [Order](https://oshpark.com/shared_projects/ZyUfectQ) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          | :heavy_check_mark:         |
+| Board Design                                                      | Order Link                                            | Through Hole       | Surface Mount      | I2C LCD            | Connector Type  | Integrated Level Shifter | Selectable OneWire Voltage |
+| ----------------------------------------------------------------- | ----------------------------------------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------------ | -------------------------- |
+| [Surface Mount](D1%20-%20SMD.md)                                  | [Order](https://oshpark.com/shared_projects/sZcIGxXP) |                    | :heavy_check_mark: | :heavy_check_mark: | Dupont          | :heavy_check_mark:       | :heavy_check_mark:         |
+| [TH - Sparkfun /w Dupont Cables](D1%20-%20LCD%20TH%20Dupont.md)   | [Order](https://oshpark.com/shared_projects/ZyUfectQ) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          | :heavy_check_mark:         |
 | [TH - MOSFETs](https://github.com/brewpi-remix/brewpi-pcb-rmx/tree/master/ESP8266%20Boards/WeMos%20D1%20Mini%20Breakout) | [Order](https://pcbs.io/share/z5JLZ)*                 | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          | :heavy_check_mark:       |                            |
 | [TH - Sparkfun /w Screw Terminals](D1%20-%20LCD%20TH%20Screws.md) | [Order](https://oshpark.com/shared_projects/OmKNGkVm) | :heavy_check_mark: |                    | :heavy_check_mark: | Screw Terminals |                          | :heavy_check_mark:         |
-| [TH - No LCD](D1%20-%20No%20LCD.md)                          | [Order](https://oshpark.com/shared_projects/TOON0jUw) | :heavy_check_mark: |                    |                    | Dupont          |                          | :heavy_check_mark:         |
+| [TH - No LCD](D1%20-%20No%20LCD.md)                               | [Order](https://oshpark.com/shared_projects/TOON0jUw) | :heavy_check_mark: |                    |                    | Dupont          |                          | :heavy_check_mark:         |
+| [TH - Sparkfun /w Dupont Cables NoRJ](D1%20-%20LCD%20TH%20Dupont%20NoRJ.md)   | [Order](https://oshpark.com/shared_projects/hdqCEBHe) | :heavy_check_mark: |                    | :heavy_check_mark: | Dupont          |                          | :heavy_check_mark:         |
 
 
 
@@ -74,3 +76,5 @@ The OneWire temperature sensors require power in order to work. Due to their des
 ## Other Required Components
 
 Although each indiviudal "controller" PCB has its own unique set of required components, all of the PCBs listed above require an additional set of common components and the appropriate sensor board. After choosing the appropriate PCB from the list above, please review the [Common Components](Common%20Components.md) and [Sensor Board](../BrewPi%20Sensor%20Boards/README.md) pages to ensure you order everything necessary for a complete build. 
+
+
