@@ -1,3 +1,4 @@
 # Backup eagle brd/sch files
 *.b#?
 *.s#?
+.DS_Store
