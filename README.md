@@ -12,3 +12,12 @@ The BrewPi-ESP8266 project reimplements the BrewPi firmware on an ESP8266.
 - [Hardware Designs](BrewPi-ESP8266.md)
 - [Project on GitHub](https://github.com/thorrak/brewpi-esp8266)
 
+
+
+## TiltBridge
+
+The TiltBridge project provides a Bluetooth-to-WiFi bridge for Tilt Hydrometers
+
+- [Hardware/Container Designs](TiltBridge.md)
+- [Project on GitHub](https://github.com/thorrak/tiltbridge/)
+
