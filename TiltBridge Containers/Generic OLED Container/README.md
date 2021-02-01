@@ -41,6 +41,3 @@ To do this, download the Case Lid OpenSCAD design linked above, open this file i
 #. Align the case lid with the top of the case, fitting the hole in the lid over the ESP32 casing on the PCB
 #. Insert the 4x square nuts into the rectangular holes on the front and back of the case 
 #. Insert the 4x screws through the circular holes on the top of the case and screw into the nuts until the screws are fully inserted into the case
-
-
-

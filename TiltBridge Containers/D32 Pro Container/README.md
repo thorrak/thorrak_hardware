@@ -23,6 +23,7 @@ This case was designed by @gromitdj on the HomeBrewTalk forums, whose talents fa
 
 LoLin has released two versions of the TFT - v1.0.0 and v1.1.0 - which can be distinguished by reading the silk screen printed on the front of the TFT screen. You will need to print the case design that corresponds to the version of your TFT, or the "cut out" for the screen in the case lid will not properly align with your screen.
 
+If you use the v1.1.0 screen, the screen will appear to be "upside down" when first flashed with TiltBridge. This is normal/expected. After setting up the WiFi there is a setting on the configuration page that will allow it to be rotated to the proper orientation.
 
 
 ## Bill of Materials
@@ -30,9 +31,10 @@ LoLin has released two versions of the TFT - v1.0.0 and v1.1.0 - which can be di
 - 1x D32 Pro
 - 1x LoLin TFT Cable
 - 1x LoLin TFT
-- 5x M2 x 5mm COUNTERSUNK bolts
+- 2x M2 x 5mm COUNTERSUNK bolts
+- 3x M2 x 5mm Pan Head bolts
 
-Although M2 x 5mm countersunk bolts can be used for everything, 3x of the bolts can be replaced by  M2 x 5mm pan head if desired. 
+If you would prefer not to buy both countersunk and pan head bolts, an additional 3x countersunk bolts can be used in place of the pan head if desired. 
 
 
 ## Assembly Instructions
@@ -41,7 +43,7 @@ Although M2 x 5mm countersunk bolts can be used for everything, 3x of the bolts 
 #. Insert the D32 Pro into the case base with the USB port facing the hole on the side, and align with the screw holes in the base of the case
 #. Use the 3x M2x5 pan head bolts (or 3x of the countersunk bolts) to secure the D32 Pro to the base of the ase
 #. Connect the TFT to the TFT cable, and connect the TFT cable to the D32 Pro
-#. Insert the TFT into the case base by aligning the holes on the TFT with the "pins" printed in the case base. Be careful when inserting the TFT not to damage the cable/connectors - you may need to twist the cable several times to get it to fit inside the case. 
+#. Insert the TFT into the case base by aligning the holes on the TFT with the "pins" printed in the case base. Be careful when inserting the TFT not to damage the cable/connectors - you may need to twist the cable several times to get it to fit inside the case.
 #. Align the case lid with the case base and insert, ensuring the screw holes printed in the tabs on the sides of the case lid align with the screw holes printed in the case base
 #. Secure the case lid to the case base by screwing the 2x M2 x 5mm countersunk bolts through the screw holes on the left and right side of the case
 

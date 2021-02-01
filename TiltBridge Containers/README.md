@@ -10,7 +10,7 @@ Although strictly optional, a 3D printed container can help make your TiltBridge
 | [Generic OLED Container](Generic%20OLED%20Container/README.md) | Supports a common generic OLED board style (see below)    |
 
 
-Designed a custom case (or a case for a different board) that you'd like to have included here? Send through a pull request!
+Have you designed a custom case (or a case for a different board) that you'd like to have included here? Send through a pull request!
 
 
 
