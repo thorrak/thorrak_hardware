@@ -1,7 +1,7 @@
-# TTGO / Heltec Container
+# Heltec Container
 
 
-The TTGO or Heltec style board is becoming increasingly popular, and tends to have a higher build quality than other OLED boards (especially if purchased directly from Heltec). These boards have the OLED screen mounted to a plastic plate on the front of the board, which is secured to the back of the board with four screws. 
+The Heltec style board is becoming increasingly popular, and tends to have a higher build quality than other OLED boards (especially if purchased directly from Heltec). These boards have the OLED screen mounted to a plastic plate on the front of the board, which is secured to the back of the board with four screws. 
 
 This container design secures the PCB in place through the use of printed standoffs, and secures the lid to the case base through the use of four screws & square nuts.
 
@@ -26,7 +26,7 @@ If you need to adjust the placement of the hole for the OLED to match your scree
 
 ## Bill of Materials
 
-- 1x Heltec / TTGO OLED Board
+- 1x Heltec-style OLED Board
 - 4x M3 Square Nuts
 - 4x M3 x 12mm Bolts
 
@@ -38,6 +38,4 @@ If you need to adjust the placement of the hole for the OLED to match your scree
 #. Insert the case lid through the top of the case, with the standoffs facing down towards the PCB. Align the hole in the front of the lid with the OLED screen
 #. Insert the 4x square nuts into the rectangular holes on the front and back of the case 
 #. Insert the 4x screws through the circular holes on the top of the case and screw into the nuts until the screws are fully inserted into the case
-
-
 
