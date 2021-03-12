@@ -59,4 +59,18 @@ This board is intended to be used with an additional ["sensor breakout PCB"](../
 
 This relay is intended to be connected to this board with two sets of dupont connectors: The first set (4 connectors) connect from the "RELAY" header to the 4-pin input-header on the relay. The second set (2 connectors) connects from the "PWR" header on the PCB. The +5v pin connects to the "JD-VCC" pin on the relay, and the GND pin connects to the GND pin next to the "JD-VCC" pin. **NOTE** - Save the jumper that previously connected the "VCC" and "JC-VCC" pins on the relay board (see below).
 
-This board allows for selectable voltage to the DS18b20 temperature sensors via the "ONEWIRE_VSEL" header. In order for the temperature sensors to work, you will need to power them. Use the jumper you removed from the relay board to connect the "OW" pin to either 5V or 3v3. Generally 5v is the best choice but there are some sensors that require 3v3 to work. The recommendation is to start with 5v and switch to 3v3 if your sensors do not work with 5v.
+This board allows for selectable voltage to the DS18b20 temperature sensors via the "ONEWIRE_VSEL" header. In order for the temperature sensors to work, you will need to power them. Use the jumper you removed from the relay board to connect the "OW" pin to either 5V or 3v3. Generally 5v is the best choice but there are some sensors that require 3v3 to work. The recommendation is to start with 5v and switch to 3v3 if your sensors do not work with 5v. 
+
+In addition to the "ONEWIRE_VSEL" header on the front of the board which allows for this voltage to be selected using a jumper, there is an "OW_VSEL" solder jumper on the back. If you don't have a removable jumper handy (or want to make your choice permanent) bridge the center of the OW_VSEL jumper with *either* the 5V or 3v3 sides to select the OneWire voltage. Do not use both the ONEWIRE_VSEL and OW_VSEL jumpers, and do not create a solder bridge between all three pins. 
+
+
+
+
+Changelog
+---------
+
+v1.2 - 2021-03-11
+
+- Added "OW_VSEL" solder jumper to back of PCB for (optional) permanent selection of OneWire voltage 
+- Tweaked routing slightly to reduce chance of trace damage during soldering
+
