@@ -18,6 +18,7 @@ This case was designed by @gromitdj on the HomeBrewTalk forums, whose talents fa
 | [D32 Case Bottom - v1.0.0](D32%20Bottom%20v100.scad)  | Case bottom for v1.0.0 TFT screens |
 | [D32 Case Bottom - v1.1.0](D32%20Bottom%20v110.scad)  | Case bottom for v1.1.0 TFT screens |
 
+The D32 case is also available on [PrusaPrinters](https://www.prusaprinters.org/prints/141680).
 
 ### Case Design Note
 

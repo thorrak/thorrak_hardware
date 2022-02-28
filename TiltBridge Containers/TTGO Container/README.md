@@ -16,6 +16,7 @@ This container design secures the PCB in place through the use of printed stando
 | [Box Base OpenSCAD](LCD%20Box%20Base.scad) | OpenSCAD Design for Box Base      |
 | [Box Lid OpenSCAD](LCD%20Box%20Lid.scad)   | OpenSCAD Design for Box Lid       |
 
+The TTGO case is also available at [PrusaPrinters](https://www.prusaprinters.org/prints/141684).
 
 ### Case Lid Note
 

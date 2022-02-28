@@ -19,6 +19,7 @@ This container design secures the PCB in place through the use of printed stando
 | [Case Base OpenSCAD](OLED%20Case%20Base.scad) | OpenSCAD Design for Box Base      |
 | [Case Lid OpenSCAD](OLED%20Case%20Lid.scad)   | OpenSCAD Design for Box Lid       |
 
+The generic OLED container is also available at [PrusaPrinters](https://www.prusaprinters.org/prints/141683).
 
 ### Case Lid Note
 
