@@ -1,9 +1,16 @@
 ESP8266 - Through Hole /w LCD & Dupont - No RJ-45 PCB
 =====================================================
 
-This PCB is designed to allow connecting an ESP8266 to the other hardware necessary to run the BrewPi firmware and control fermentation temperatures for your brewery. This specific board was designed to use a LoLin D1 Mini ESP8266 microcontroller and integrate with a 2-channel relay board and a LCD2004 IIC LCD screen. This PCB supports the use of dupont connectors for connecting the relay and IIC LCD which allows for a much more compact design than if screw terminals were used. This PCB uses a "SparkFun"-style level shifter module for handling the level conversion necessary to drive the LCD display.
+This PCB is designed to allow connecting an ESP8266 to the other hardware necessary to run the BrewPi firmware and 
+control fermentation temperatures for your brewery. This specific board was designed to use a LoLin D1 Mini ESP8266 
+microcontroller and integrate with a 2-channel relay board and a LCD2004 IIC LCD screen. This PCB supports the use of 
+dupont connectors for connecting the relay and IIC LCD which allows for a much more compact design than if screw 
+terminals were used. This PCB uses a "SparkFun"-style level shifter module for handling the level conversion necessary 
+to drive the LCD display.
 
-This board *does* have terminals for directly connecting temperature sensors and does not require the use of a connected sensor board. This simplifies the build at the cost of being able to move your sensors closer to your fermenter if required. 
+This board *does* have terminals for directly connecting temperature sensors and does not require the use of a connected
+sensor board. This simplifies the build at the cost of no longer being able to move your sensors closer to your 
+fermenter if required. 
 
 
 Order Links
@@ -11,9 +18,9 @@ Order Links
 
 2 Layer Board - 1.82 x 1.97 in (46.3 x 50.0 mm)
 
-| Vendor/Aggregator                                                           | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
-| --------------------------------------------------------------------------- | ------------ | ---------- | ---------- | -------------- |
-| [OshPark](https://oshpark.com/shared_projects/hdqCEBHe)                     | 3            | $5.98      | $17.95     | < 3 weeks      |
+| Vendor/Aggregator                                                                                | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
+|--------------------------------------------------------------------------------------------------|--------------|------------|------------|----------------|
+| [OshPark](https://oshpark.com/shared_projects/hdqCEBHe)                                          | 3            | $5.98      | $17.95     | < 3 weeks      |
 | [DirtyPCBs](https://dirtypcbs.com/store/designer/details/Thorrak/6486/d1-lcd-th-dupont-norj-zip) | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
 
 - Dirty PCBs does not include shipping
@@ -29,30 +36,31 @@ Order Links
 Bill of Materials
 ------------------------------
 
-| Part                                                                                       | Qty  | Build Cost | Order Qty | Order Cost* |
-| ------------------------------------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
-| [PCB](https://oshpark.com/shared_projects/hdqCEBHe)                                        | 1    | $5.98      | 3         | $17.95      |
-| [Wago 2-terminal Screw Clamp (KF301-2P)](https://www.aliexpress.com/item/32700056337.html) | 1    | $0.02      | 100       | $1.95       |
-| [SparkFun Logic Level Converter](https://www.sparkfun.com/products/12009)                  | 1    | $2.51      | 1         | $2.51       |
-| [1uF Capacitor](https://www.aliexpress.com/item/4000395699194.html)                        | 2    | $0.02      | 100       | $1.10       |
-| [0.1uF Capacitor](https://www.aliexpress.com/item/4000395699194.html)                      | 2    | $0.02      | 100       | $0.84       |
-| [4.7k Resistor](https://www.aliexpress.com/item/33025939683.html)                          | 1    | $0.01      | 100       | $0.44       |
-| [4-Pin Male Pin Header](https://www.aliexpress.com/item/32993182990.html)                  | 2    | $0.10*     | 400*      | $0.97*      |
-| [3-Pin Male Pin Header](https://www.aliexpress.com/item/32993182990.html)                  | 1    | --         | --        | *           |
-| [2-Pin Male Pin Header](https://www.aliexpress.com/item/32993182990.html)                  | 1    | --         | --        | *           |
-| [8-Pin Female Pin Header](https://www.aliexpress.com/item/32993182990.html)                | 2    | **         | **        | **          |
-| [6-Pin Female Pin Header (Optional)](https://www.aliexpress.com/item/32993182990.html)     | 2    | $0.10      | 400*      | $1.95*      |
+| Part                                                                                                                   | Qty | Build Cost  | Order Qty  | Order Cost*  |
+|------------------------------------------------------------------------------------------------------------------------|-----|-------------|------------|--------------|
+| [PCB](https://oshpark.com/shared_projects/hdqCEBHe)                                                                    | 1   | $5.98       | 3          | $17.95       |
+| [2-terminal Screw Clamp](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/691137710002/6644051)        | 1   | $0.39       | 1          | $0.39        |
+| [SparkFun Logic Level Converter](https://www.digikey.com/en/products/detail/sparkfun-electronics/BOB-12009/5673795)    | 1   | $3.50       | 1          | $3.50        |
+| [1uF Capacitor](https://www.digikey.com/en/products/detail/tdk-corporation/FG18X7R1E105KRT00/7326658)                  | 2   | $0.76       | 2          | $0.76        |
+| [0.1uF Capacitor](https://www.digikey.com/en/products/detail/kemet/C315C104M5U5TA7303/3726116)                         | 2   | $0.46       | 2          | $0.46        |
+| [4.7k Resistor](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT4K70/1741428)               | 1   | $0.10       | 1          | $0.10        |
+| [4-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214) | 2   | $0.22*      | 40*        | $0.66*       |
+| [3-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214) | 1   | --          | --         | *            |
+| [2-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214) | 1   | --          | --         | *            |
+| [8-Pin Female Pin Header](https://www.digikey.com/en/products/detail/adam-tech/RS1-08-G/9832056)                       | 2   | **          | **         | **           |
+| [2.54mm Jumper](https://www.digikey.com/en/products/detail/sullins-connector-solutions/STC02SYAN/76372)                | 1   | $0.10*      | 1          | $0.10*       |
 
-* Total Build Cost (Individual): $8.66
-* Total Build Cost (Min Order): $25.71 (Builds 3)
-* Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping.
+* Total Build Cost (Individual): $11.51
+* Total Build Cost (Min Order): $23.92
+* Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping/tax/tariffs.
 
-- Male pin headers typically come in strips of 40 - Price listed above is for an order of 10 strips of 40 (one strip of which is more than enough for the 13 pins required for this project)
+- All parts except the PCB can be ordered from DigiKey via [this link](https://www.digikey.com/short/m3qm34m9), or by uploading the [BoM CSV](D1%20-%20LCD%20TH%20Dupont%20NoRJ%20DigiKey%20BOM.csv) to their shopping cart page
+- Male pin headers typically come in strips of 40 - one strip of which is more than enough for the 13 pins required for this project
 - The 2 8-Pin Female pin headers noted above are typically included with the D1 Mini, and thus are not included in the price
-- The 2 optional 6-Pin Female pin headers can be used in the holes for the SparkFun level shifter, thus allowing it to be replaced at a later date if needed. If omitted, the level shifter's male pins can be soldered directly through the holes in the PCB.
+- The 2.54mm jumper is optional, as you can use the one that comes pre-attached to your relay board. Ordering a spare is cheap insurance, however.
 - In addition to the parts list above a complete build requires a set of [Common Components](Common%20Components.md) (except for the RJ-45 cable) and the appropriate [temperature sensors](../BrewPi%20Sensor%20Boards/RJ-45%20Sensor%20Breakout.md#temperature-sensors)
 
-There are sellers on AliExpress that sell "SparkFun"-style logic level converters -- If you order from one of these sellers, please be sure that the pinout is the same (HV on one side, LV on the other side, with GND and HV/LV in the middle).
+There are other vendors that sell "SparkFun"-style logic level converters -- If you order from one of them, please be sure that the pinout is the same (HV on one side, LV on the other side, with GND and HV/LV in the middle).
 
 
 

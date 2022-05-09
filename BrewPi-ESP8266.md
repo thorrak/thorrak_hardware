@@ -1,6 +1,9 @@
 # Hardware for BrewPi-ESP8266
 
-The BrewPi-ESP8266 project reimplements the BrewPi firmware on the ESP8266. A full BrewPi build requires three sets of components for the electronics and a container to house it all.
+The BrewPi-ESP8266 project reimplements the BrewPi firmware on the ESP8266. A full BrewPi build typically requires one 
+set of components for the PCB to which the ESP8266 is connected, one for the sensor breakout board, and then additional
+"common" components which are connected to the other two PCBs, but do not themselves require assembly. A build will also
+typically require some type of container to house everything.
 
 
 

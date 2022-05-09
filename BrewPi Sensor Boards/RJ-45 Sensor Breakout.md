@@ -79,6 +79,6 @@ The DS18b20 temperature sensors are intended to be soldered directly to the PCB.
 
 The use of the door sensor is optional. If the door sensor is used, only the screw terminal OR direct solder points should be used. Attaching multiple door sensors will have unintended effects.
 
-This board is easiest to use when inside an optional case. A 3D-printable case design is available on [Thingiverse](https://www.thingiverse.com/thing:2954861). Alternative case designs/ideas are welcomed.
+This board is easiest to use when inside an optional case. A 3D-printable case design is available on [PrusaPrinters](https://www.prusaprinters.org/prints/141682). Alternative case designs/ideas are welcomed.
 
 

@@ -11,9 +11,9 @@ Order Links
 
 2 Layer Board - 1.77 x 1.34 in (45.0mm x 34.1 mm)
 
-| Vendor/Aggregator                                            | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
-| ------------------------------------------------------------ | ------------ | ---------- | ---------- | -------------- |
-| [OshPark](https://oshpark.com/shared_projects/TOON0jUw)      | 3            | $3.95      | $11.85     | < 3 weeks      |
+| Vendor/Aggregator                                                                                 | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
+|---------------------------------------------------------------------------------------------------|--------------|------------|------------|----------------|
+| [OshPark](https://oshpark.com/shared_projects/TOON0jUw)                                           | 3            | $3.95      | $11.85     | < 3 weeks      |
 | [DirtyPCBs](https://dirtypcbs.com/store/designer/details/Thorrak/6449/brewpi-esp8266-no-lcd-v1-1) | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
 
 - Dirty PCBs does not include shipping
@@ -29,26 +29,27 @@ Order Links
 Bill of Materials
 ------------------------------
 
-| Part                                                         | Qty  | Build Cost | Order Qty | Order Cost* |
-| ------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
-| [PCB](https://oshpark.com/shared_projects/TOON0jUw)          | 1    | $3.95      | 3         | $11.85      |
-| [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) | 1    | $0.13      | 20        | $2.52       |
-| [Wago 2-terminal Screw Clamp (KF301-2P)](https://www.aliexpress.com/item/32700056337.html) | 1    | $0.02      | 100       | $1.95       |
-| [4.7k Resistor](https://www.aliexpress.com/item/33025939683.html) | 1    | $0.01      | 100       | $0.44       |
-| [1uF Capacitor](https://www.aliexpress.com/item/4000395699194.html) | 2    | $0.02      | 100       | $1.10       |
-| [0.1uF Capacitor](https://www.aliexpress.com/item/4000395699194.html) | 2    | $0.02      | 100       | $0.84       |
-| [4-Pin Male Pin Header](https://www.aliexpress.com/item/32993182990.html) | 1    | $0.10*     | 400*      | $0.97*      |
-| [3-Pin Male Pin Header](https://www.aliexpress.com/item/32993182990.html) | 1    | --         | --        | *           |
-| [2-Pin Male Pin Header](https://www.aliexpress.com/item/32993182990.html) | 1    | --         | --        | *           |
-| [8-Pin Female Pin Header](https://www.aliexpress.com/item/32993182990.html) | 2    | **         | **        | **          |
+| Part                                                                                                                   | Qty | Build Cost | Order Qty  | Order Cost*  |
+|------------------------------------------------------------------------------------------------------------------------|-----|------------|------------|--------------|
+| [PCB](https://oshpark.com/shared_projects/TOON0jUw)                                                                    | 1   | $3.95      | 3          | $11.85       |
+| [RJ45 Modular Jack w/no shield](https://www.digikey.com/en/products/detail/stewart-connector/SS-90000-001/14548964)    | 1   | $0.74      | 1          | $0.74        |
+| [2-terminal Screw Clamp](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/691137710002/6644051)        | 1   | $0.39      | 1          | $0.39        |
+| [1uF Capacitor](https://www.digikey.com/en/products/detail/tdk-corporation/FG18X7R1E105KRT00/7326658)                  | 2   | $0.76      | 2          | $0.76        |
+| [0.1uF Capacitor](https://www.digikey.com/en/products/detail/kemet/C315C104M5U5TA7303/3726116)                         | 2   | $0.46      | 2          | $0.46        |
+| [4-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214) | 1   | $0.15*     | 40*        | $0.66*       |
+| [3-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214) | 1   | --         | --         | *            |
+| [2-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214) | 1   | --         | --         | *            |
+| [8-Pin Female Pin Header](https://www.digikey.com/en/products/detail/adam-tech/RS1-08-G/9832056)                       | 2   | **         | **         | **           |
+| [2.54mm Jumper](https://www.digikey.com/en/products/detail/sullins-connector-solutions/STC02SYAN/76372)                | 1   | $0.10*     | 1          | $0.10*       |
 
-* Total Build Cost (Individual): $4.25
-* Total Build Cost (Min Order): $19.67 (Builds 3)
-* Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping.
+* Total Build Cost (Individual): $6.55
+* Total Build Cost (Min Order): $14.96
+* Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping/tax/tariffs.
 
-- Male pin headers typically come in strips of 40 - Price listed above is for an order of 10 strips of 40 (one strip of which is more than enough for the 9 pins required for this project)
-- The 2 Female pin headers noted above are typically included with the D1 Mini, and thus are not included in the price
-- In addition to the parts list above a complete build requires a set of [Common Components](Common%20Components.md) and the appropriate [Sensor Board](../BrewPi%20Sensor%20Boards/README.md)
+- All parts except the PCB can be ordered from DigiKey via [this link](https://www.digikey.com/short/5rqdt4m2), or by uploading the [BoM CSV](D1%20-%20No%20LCD%20DigiKey%20BOM.csv) to their shopping cart page
+- Male pin headers typically come in strips of 40 - one strip of which is more than enough for the 9 pins required for this project
+- The 2 8-Pin Female pin headers noted above are typically included with the D1 Mini, and thus are not included in the price
+- In addition to the parts list above a complete build requires a set of [Common Components](Common%20Components.md) (except for the LCD screen) and the appropriate [Sensor Board](../BrewPi%20Sensor%20Boards/README.md)
 
 
 
@@ -64,13 +65,4 @@ This board allows for selectable voltage to the DS18b20 temperature sensors via 
 In addition to the "ONEWIRE_VSEL" header on the front of the board which allows for this voltage to be selected using a jumper, there is an "OW_VSEL" solder jumper on the back. If you don't have a removable jumper handy (or want to make your choice permanent) bridge the center of the OW_VSEL jumper with *either* the 5V or 3v3 sides to select the OneWire voltage. Do not use both the ONEWIRE_VSEL and OW_VSEL jumpers, and do not create a solder bridge between all three pins. 
 
 
-
-
-Changelog
----------
-
-v1.2 - 2021-03-11
-
-- Added "OW_VSEL" solder jumper to back of PCB for (optional) permanent selection of OneWire voltage 
-- Tweaked routing slightly to reduce chance of trace damage during soldering
 
