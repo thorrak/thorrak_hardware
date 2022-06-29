@@ -15,3 +15,17 @@ typically require some type of container to house everything.
 | [Main Container](BrewPi%20Containers/Main%20PCB%20Container/README.md) | 3D-printable containers for the "main" controller PCB, relay, PSU, and AC connectors |
 | [Sensor Board Container](BrewPi%20Containers/Sensor%20Board%20Container/README.md) | 3D-printable containers for the "sensor board" PCB           |
 
+
+# Controller Choice
+
+The BrewPi-ESP project supports a number of different microcontrollers with differing features. Supported controllers include:
+
+| **Microcontroller** | **DS18b20 Temp Sensors** | **Connected Relays** | **WiFi Support**   | **LCD2004 (IIC) Support** | **TFT Screen Support** | **Kasa WiFi Relay** | **Tilt/Inkbird Bluetooth Temp Sensors** |
+|---------------------|--------------------------|----------------------|--------------------|---------------------------|------------------------|---------------------|-----------------------------------------|
+| Arduino*            | :heavy_check_mark:       | :heavy_check_mark:   |                    | :heavy_check_mark:*       |                        |                     |                                         |
+| ESP8266             | :heavy_check_mark:       | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:        |                        |                     |                                         |
+| ESP32               | :heavy_check_mark:       | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:        | :heavy_check_mark:     | :heavy_check_mark:  | :heavy_check_mark:                      |
+| ESP32-S2            | :heavy_check_mark:       | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:        |                        | :heavy_check_mark:  |                                         |
+
+Note - "Classic" BrewPi builds are based on Arduinos, which are shown in the table above for comparison. There is an (optional) IIC-compatible build of the Arduino firmware available, but "classic" builds did not support this feature.
+
