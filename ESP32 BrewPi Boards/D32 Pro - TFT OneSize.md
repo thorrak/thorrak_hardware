@@ -1,4 +1,4 @@
-D32 Pro - TFT AIO
+D32 Pro - "One Size Fits Most" TFT PCB
 ==================================================
 
 This PCB is designed to allow connecting an ESP32 to the other hardware necessary to run the BrewPi firmware and 
@@ -27,8 +27,8 @@ Order Links
 | ----------------- |:--------------------:|
 | ![Board Top][top] | ![Board Bottom][bot] |
 
-[top]: imgs/SMD%20Top.png "Board Top"
-[bot]: imgs/SMD%20Bottom.png "Board Bottom"
+[top]: imgs/D32%20Pro%20-%20TFT%20OneSize%20Top.png "Board Top"
+[bot]: imgs/D32%20Pro%20-%20TFT%20OneSize%20Bottom.png "Board Bottom"
 
 
 Bill of Materials
