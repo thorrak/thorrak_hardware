@@ -22,7 +22,7 @@ If you have an alternative case design for this project that you would like list
 
 ### Case Lid Designs
 
-| Design                         | Description                                             |
-| ------------------------------ | ------------------------------------------------------- |
-| [LCD2004 Case Lid](LCD2004.md) | A case lid designed to attach to an LCD2004 LCD display |
-
+| Design                                               | Description                                                 |
+|------------------------------------------------------|-------------------------------------------------------------|
+| [LCD2004 Case Lid](./LCD2004%20Case%20Lid.md)        | A case lid designed to attach to an LCD2004 LCD display     |
+| [LoLin D32 v1.1.0 Case Lid](LoLin%20D32%20v1.1.0.md) | A case lid designed to attach to a LoLin D32 v1.1.0 display |

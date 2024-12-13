@@ -1,6 +1,7 @@
 # LCD2004 Case Lid
 
-This case lid design incorporates an LCD2004 display which can be used with the BrewPi-ESP8266 project. 
+This case lid design incorporates an LCD2004 display which can be used with the BrewPi-ESP project. This lid is designed
+for use with one of the [Main PCB Containers](README.md) available for the BrewPi-ESP project.
 
 
 

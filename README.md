@@ -5,11 +5,11 @@ This repo is a collection of PCBs and other hardware designs I've made for vario
 
 
 
-## BrewPi-ESP8266
+## BrewPi-ESP
 
-The BrewPi-ESP8266 project reimplements the BrewPi firmware on an ESP8266. 
+The BrewPi-ESP project reimplements the BrewPi firmware on an ESP8266, ESP32, and ESP32-S2. 
 
-- [Hardware Designs](BrewPi-ESP8266.md)
+- [Hardware Designs](BrewPi-ESP.md)
 - [Project on GitHub](https://github.com/thorrak/brewpi-esp8266)
 
 
