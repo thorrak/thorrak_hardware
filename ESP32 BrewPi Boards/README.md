@@ -7,13 +7,13 @@ ESP32 BrewPi Controller Boards
 
 Although the "heart" of a BrewPi controller is the microprocessor running the BrewPi-compatible firmware, without other
 connected components that microcontroller cannot sense temperature, control power, or do any of the other things that
-make a temperature controller useful. For the ESP32 version of this project, I have designed a single, "all-in-one" PCB
-that should work for virtually all builds. 
+make a temperature controller useful. For the ESP32 version of this project, I have designed a single, "one size fits 
+most" PCB that should work for virtually all builds. 
 
 
-| Board Design                                              | Tindie Order Link                               | OSHPark Order Link                                     |
-|-----------------------------------------------------------|-------------------------------------------------|--------------------------------------------------------|
-| [All-in-One D32 / D32 Pro](D32%20Pro%20-%20-TFT%20AIO.md) | [Order](https://www.tindie.com/products/27251/) | [Order](https://oshpark.com/shared_projects/iRLM23Fa)  |
+| Board Design                                                            | Tindie Order Link                               | OSHPark Order Link                                     |
+|-------------------------------------------------------------------------|-------------------------------------------------|--------------------------------------------------------|
+| ["One Size Fits Most" D32 / D32 Pro](D32%20Pro%20-%20-TFT%20OneSize.md) | [Order](https://www.tindie.com/products/27251/) | [Order](https://oshpark.com/shared_projects/iRLM23Fa)  |
 
 
 This board supports the following features:
