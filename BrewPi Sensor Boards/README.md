@@ -7,15 +7,15 @@ All the up-to-date "main" controller board designs use RJ-45 jacks and are inten
 
 
 
-| Design                                               | Order                                                 | Jack Type | Cost from OshPark |
-| ---------------------------------------------------- | ----------------------------------------------------- | --------- | ----------------- |
-| [RJ-45 Breakout Board](RJ-45%20Sensor%20Breakout.md) | [Order](https://oshpark.com/shared_projects/5gqoDyRn) | RJ-45     | $9.60 (for 3)     |
+| Design                                               | Order                                                 | Buy on Tindie                                                                                 | Jack Type |
+| ---------------------------------------------------- | ----------------------------------------------------- |-----------------------------------------------------------------------------------------------| --------- |
+| [RJ-45 Breakout Board](RJ-45%20Sensor%20Breakout.md) | [Order](https://oshpark.com/shared_projects/5gqoDyRn) | [Buy](https://www.tindie.com/products/thorrak/brewpi-esp-rj45-sensor-breakout-board-v11-pcb/) | RJ-45     |
 
 
 
 ## Legacy Breakout Board Designs
 
-Older versions of the "main" controller board designs used RJ-11 jacks and were intended to be connected via elephone cables. Unfortunately, telephone cables are frequently found in both the "straight through" and "crossover" versions, and as a result many builds failed as a result of using the wrong cable type.
+Older versions of the "main" controller board designs used RJ-11 jacks and were intended to be connected via telephone cables. Unfortunately, telephone cables are frequently found in both the "straight through" and "crossover" versions, and as a result many builds failed as a result of using the wrong cable type.
 
-**New builds should use the RJ-45 boards.** Users with older controller PCBs that need the RJ-11 breakout board design can find it in the "legacy" folder in this repo.
+**New builds should use the RJ-45 boards.** Users with older controller PCBs that need the RJ-11 breakout board design can find it in the ["legacy"](legacy/RJ-11%20Sensor%20Breakout.md) folder in this repo.
 

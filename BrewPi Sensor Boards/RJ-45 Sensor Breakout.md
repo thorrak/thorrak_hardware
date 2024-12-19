@@ -1,23 +1,21 @@
-RJ-45 Sensor Breakout
-=====================
+# RJ-45 Sensor Breakout
 
 This board is intended to allow for the DS18b20 temperature sensors (and optionally, door switch) to be connected to a PCB that is away from your main BrewPi controller, thereby allowing for the use of shorter temperature sensor cables - or for the placement of the sensor breakout inside your fermentation chamber if necessary. This breakout board is intended to be connected to the BrewPi controller via an RJ-45 straight-through cable (i.e. Ethernet).
 
 Temperature sensors are intended to be connected directly to the board, and the door sensor can either be connected directly to the board or can be connected via an optional screw terminal.
 
-Order Links
------------
+## Order Links
 
 2 Layer Board - 1.24 x 1.55 in (31.5 x 39.4 mm)
 
-| Vendor/Aggregator                                            | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
-| ------------------------------------------------------------ | ------------ | ---------- | ---------- | -------------- |
-| [OshPark](https://oshpark.com/shared_projects/5gqoDyRn)      | 3            | $3.20      | $9.60      | < 3 weeks      |
-| [DirtyPCBs](https://dirtypcbs.com/store/designer/details/Thorrak/6454/brewpi-esp-rj45-sensor-breakout-board-v1-1) | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
-| [Tindie](https://www.tindie.com/products/thorrak/brewpi-esp-rj45-sensor-breakout-board-v10-pcb/)* | 1            | $3.50      | $3.50      | < 1 week       |
+| Vendor/Aggregator                                                                                                                        | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
+|------------------------------------------------------------------------------------------------------------------------------------------| ------------ |------------|------------| -------------- |
+| [Tindie (me)](https://www.tindie.com/products/thorrak/brewpi-esp-rj45-sensor-breakout-board-v11-pcb/) (Includes RJ-45 & Screw Terminals) | 1            | $4.95      | $4.95      | < 1 week       |
+| [OshPark](https://oshpark.com/shared_projects/5gqoDyRn)                                                                                  | 3            | $3.20      | $9.60      | < 3 weeks      |
+| [DirtyPCBs](https://dirtypcbs.com/store/designer/details/Thorrak/6454/brewpi-esp-rj45-sensor-breakout-board-v1-1)                        | +/-10        | $1.32      | $13.15*    | > 6 weeks      |
 
 - Dirty PCBs does not include shipping
-- The board listed on [Tindie](https://www.tindie.com/products/thorrak/brewpi-esp-rj45-sensor-breakout-board-v10-pcb/) is the older, v1.0 version of the board (does not include silkscreen on back, has slightly different pin order, and has the VCC lines labeled as 3v3)
+- The board listed on [Tindie](https://www.tindie.com/products/thorrak/brewpi-esp-rj45-sensor-breakout-board-v11-pcb/) **includes** the RJ-45 jack and screw terminal for the door sensor
 
 | Top View          | Bottom View          |
 | ----------------- |:--------------------:|
@@ -27,21 +25,21 @@ Order Links
 [bot]: imgs/RJ-45%20Bottom.png "Board Bottom"
 
 
-Bill of Materials
------------------
+## Bill of Materials
 
-| Part                                                         | Qty  | Build Cost | Order Qty | Order Cost* |
-| ------------------------------------------------------------ | ---- | ---------- | --------- | ----------- |
-| [PCB](https://oshpark.com/shared_projects/5gqoDyRn)          | 1    | $3.20      | 3         | $9.60       |
-| [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) (J1) | 1    | $0.13      | 20        | $2.52       |
-| [Wago 2-terminal Screw Clamp](https://www.aliexpress.com/item/32700056337.html) (X1) (Optional) | 1    | $0.02      | 100       | $1.95       |
+
+| Part                                                                                                           | Qty  | Build Cost | Order Qty | Order Cost* |
+|----------------------------------------------------------------------------------------------------------------| ---- |------------|-----------|-------------|
+| [PCB](https://www.tindie.com/products/thorrak/brewpi-esp-rj45-sensor-breakout-board-v11-pcb/)                  | 1    | $4.95*     | 1         | $4.95       |
+| [RJ45 Modular Jack w/no shield](https://www.aliexpress.com/item/32736146888.html) (J1)                         | 1    | $0.22      | 20        | $4.33       |
+| [2-pin Screw Terminal](https://www.aliexpress.us/item/3256806456550715.html) (X1) (Optional) | 1    | $0.08      | 20        | $1.66       |
 
 * Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping.
+* The Tindie PCB link includes the RJ-45 jack and 2 terminal screw clamp
 
-- Total Build Cost (Individual): $3.35 (excluding temp sensors)
-- Total Build Cost (Min Order): $14.07 (Builds 3 excluding temp sensors)
+- Total Build Cost (Individual): $4.95 (excluding temp sensors)
+- Total Build Cost (Min Order): $4.95 (excluding temp sensors)
 - This board requires a "straight-through" ethernet cable to connect to the main controller PCB
-- The jack and screw clamp are also [available on Tindie](https://www.tindie.com/products/thorrak/brewpi-esp-sensor-breakout-pcb-materials/) for purchase as a kit
 - You will also need 1-3 temperature sensors (see below)
 
 ### Temperature Sensors
@@ -72,13 +70,19 @@ Below are some example sources for these sensors (Note that none of these source
 
 
 
-Build Notes
------------
+## Build Notes
 
-The DS18b20 temperature sensors are intended to be soldered directly to the PCB. This helps keep them secure, but can make them difficult to remove. Testing your temperature sensors before attaching them is highly recommended.
+The DS18b20 temperature sensors are intended to be soldered directly to the PCB. This helps keep them secure, but can make them difficult to remove. Testing your temperature sensors before permanently attaching them is highly recommended.
 
 The use of the door sensor is optional. If the door sensor is used, only the screw terminal OR direct solder points should be used. Attaching multiple door sensors will have unintended effects.
 
-This board is easiest to use when inside an optional case. A 3D-printable case design is available on [PrusaPrinters](https://www.prusaprinters.org/prints/141682). Alternative case designs/ideas are welcomed.
+This board is easiest to use when inside an optional case. A 3D-printable case design is available on [Printables](https://www.printables.com/model/141682-brewpi-sensor-breakout-box). Alternative case designs/ideas are welcomed.
 
+
+## Design Files
+
+The raw Eagle design files are available within this repo.
+
+* Board - [RJ-45 v1.1.brd](RJ-45%20v1.1.brd)
+* Schematic - [RJ-45 v1.1.sch](RJ-45%20v1.1.sch)
 
