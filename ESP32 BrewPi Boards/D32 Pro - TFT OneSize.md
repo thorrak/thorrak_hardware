@@ -3,7 +3,7 @@ D32 Pro - "One Size Fits Most" TFT PCB
 
 This PCB is designed to allow connecting an ESP32 to the other hardware necessary to run the BrewPi firmware and 
 control fermentation temperatures for your brewery. This specific board was designed to use a LoLin D32 Pro ESP32 
-microcontroller, integrate with a 2-channel relay board, connect to an I2C LCD or TFT screen, and has selectable voltage
+microcontroller, connect to a 2-channel relay board, connect to an I2C LCD or TFT screen, and has selectable voltage
 for the OneWire temperature sensors. This PCB supports the use of dupont connectors for connecting the relay which 
 allows for a much more compact design than if screw terminals were used.
 
@@ -16,10 +16,13 @@ Order Links
 
 2 Layer Board - 1.73 x 3.03 in (43.8 x 77.0 mm)
 
-| Vendor/Aggregator                                                            | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
-|------------------------------------------------------------------------------|--------------|------------|------------|----------------|
-| [OshPark](https://oshpark.com/shared_projects/iRLM23Fa)                      | 3            | $8.70      | $26.10     | < 3 weeks      |
-| [Tindie](https://oshpark.com/shared_projects/1slCGU7M) - Partially Assembled | 1            | $11.95     | $11.95     | < 1 week       |
+| Vendor/Aggregator                                                                                                                      | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
+|----------------------------------------------------------------------------------------------------------------------------------------|--------------|------------|------------|----------------|
+| [OshPark](https://oshpark.com/shared_projects/iRLM23Fa)                                                                                | 3            | $8.70      | $26.10     | < 3 weeks      |
+| [Tindie](https://www.tindie.com/products/thorrak/brewpi-esp32-partially-assembled-pcb/) - **Partially Assembled, Includes Components** | 1            | $18.95     | $18.95     | < 1 week       |
+
+- The Tindie link above **includes** all SMD components pre-soldered to the board
+- The Tindie link above also **includes** all TH components from the "Bill of Materials" below _except_ the 2.54mm jumper (which comes with the 2-channel relay board, purchased separately)
 
 
 
@@ -34,22 +37,22 @@ Order Links
 Bill of Materials
 ------------------------------
 
-| Part                                                                                                                            | Qty | Build Cost | Order Qty | Order Cost* |
-|---------------------------------------------------------------------------------------------------------------------------------|-----|------------|-----------|-------------|
-| [PCB](https://oshpark.com/shared_projects/iRLM23Fa)                                                                             | 1   | $8.70      | 3         | $26.10      |
-| [10k 0805 Resistor](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262)               | 4   | $0.40      | 4         | $0.40       |
-| [4.7k 0805 Resistor](https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805J4K7/8576740)          | 1   | $0.10      | 1         | $0.10       |
-| [0.1uF (100nF) 0805 Capacitor](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757)    | 2   | $0.20      | 2         | $0.20       |
-| [1.0uF 0805 Capacitor](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KAFNNNE/3886724)            | 2   | $0.20      | 2         | $0.20       |
-| [BSS138 MOSFET](https://www.digikey.com/en/products/detail/onsemi/BSS138/244210)                                                | 2   | $0.70      | 2         | $0.70       |
-| [RJ45 Modular Jack w/no shield](https://www.digikey.com/en/products/detail/stewart-connector/SS-90000-001/14548964)             | 1   | $0.74      | 1         | $0.74       |
-| [2-terminal Screw Clamp](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/691137710002/6644051)                 | 1   | $0.39      | 1         | $0.39       |
-| [4-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214)          | 2   | $0.22*     | 40*       | $0.66*      |
-| [3-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214)          | 1   | --         | --        | *           |
-| [2-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214)          | 1   | --         | --        | *           |
-| [16-Pin Female Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC161LFBN-RC/810154)        | 2   | $1.96      | 2         | $1.96       |
-| [10-Pin (2x5) Box Header](https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/G821EU210AGM00Y/13683147)  | 1   | $0.75      | 1         | $0.75       |
-| [2.54mm Jumper](https://www.digikey.com/en/products/detail/sullins-connector-solutions/STC02SYAN/76372)                         | 1   | $0.10*     | 1         | $0.10*      |
+| Part                                                                                                                           | Qty | Build Cost | Order Qty | Order Cost* |
+|--------------------------------------------------------------------------------------------------------------------------------|-----|------------|-----------|-------------|
+| [PCB](https://oshpark.com/shared_projects/iRLM23Fa)                                                                            | 1   | $8.70      | 3         | $26.10      |
+| [10k 0805 Resistor](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262)              | 4   | $0.40      | 4         | $0.40       |
+| [4.7k 0805 Resistor](https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0805J4K7/8576740)         | 1   | $0.10      | 1         | $0.10       |
+| [0.1uF (100nF) 0805 Capacitor](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KACNNNC/3886757)   | 2   | $0.20      | 2         | $0.20       |
+| [1.0uF 0805 Capacitor](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KAFNNNE/3886724)           | 2   | $0.20      | 2         | $0.20       |
+| [BSS138 MOSFET](https://www.digikey.com/en/products/detail/onsemi/BSS138/244210)                                               | 2   | $0.70      | 2         | $0.70       |
+| [RJ45 Modular Jack w/no shield](https://www.digikey.com/en/products/detail/stewart-connector/SS-90000-001/14548964)            | 1   | $0.74      | 1         | $0.74       |
+| [2-terminal Screw Clamp](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/691137710002/6644051)                | 1   | $0.39      | 1         | $0.39       |
+| [4-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214)         | 2   | $0.22*     | 40*       | $0.66*      |
+| [3-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214)         | 1   | --         | --        | *           |
+| [2-Pin Male Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC040SAAN-RC/2775214)         | 1   | --         | --        | *           |
+| [16-Pin Female Pin Header](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC161LFBN-RC/810154)       | 2   | $1.96      | 2         | $1.96       |
+| [10-Pin (2x5) Box Header](https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/G821EU210AGM00Y/13683147) | 1   | $0.75      | 1         | $0.75       |
+| [2.54mm Jumper](https://www.digikey.com/en/products/detail/sullins-connector-solutions/STC02SYAN/76372)                        | 1   | $0.10*     | 1         | $0.10*      |
 
 * Total Build Cost (Individual): $x.xx
 * Total Build Cost (Min Order): $x.xx
@@ -57,7 +60,7 @@ Bill of Materials
 
 - Male pin headers typically come in strips of 40 - one strip of which is more than enough for the 9 pins required for this project
 - The 2.54mm Jumper generally comes attached to the 5v 2-channel relay board included in the list of Common Components
-- In addition to the parts list above a complete build requires a set of [Common Components](Common%20Components.md) and the appropriate [Sensor Board](../BrewPi%20Sensor%20Boards/README.md)
+- In addition to the parts list above a complete build requires a set of [Common Components](../ESP8266%20BrewPi%20Boards/Common%20Components.md) and the appropriate [Sensor Board](../BrewPi%20Sensor%20Boards/README.md)
 
 
 
