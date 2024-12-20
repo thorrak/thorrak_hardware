@@ -79,7 +79,7 @@ you can source. The power supply is included with purchases from [Tindie](https:
 * Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping/tax/tariffs.
 
 - Male pin headers typically come in strips of 40 - one strip of which is more than enough for the 9 pins required for this project
-- In addition to the parts list above a complete build requires a subset of the [Common Components](Common%20Components.md) (see below) and the appropriate [Sensor Board](../BrewPi%20Sensor%20Boards/README.md)
+- In addition to the parts list above a complete build requires a subset of the [Common Components](../ESP8266%20BrewPi%20Boards/Common%20Components.md) (see below) and the appropriate [Sensor Board](../BrewPi%20Sensor%20Boards/README.md)
 
 
 ## Common Components (Electronics)

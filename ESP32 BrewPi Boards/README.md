@@ -1,5 +1,5 @@
-ESP32 BrewPi Controller Boards
-==============================
+# ESP32 BrewPi Controller Boards
+
 
 # NOTE - This document is NOT complete/verified yet. 
 ## Please do not base a build on this doc without consulting Thorrak directly first!
@@ -13,11 +13,11 @@ the 5V 2A AC-to-DC power supply and 2-channel relay board that are typically req
 separately. 
 
 
-| Board Design                                                              | Tindie Order Link                               | OSHPark Order Link                                     |
-|---------------------------------------------------------------------------|-------------------------------------------------|--------------------------------------------------------|
-| ["One Size Fits Most" D32 / D32 Pro](D32%20Pro%20-%20-TFT%20OneSize.md)   | [Order](https://www.tindie.com/products/27251/) | [Order](https://oshpark.com/shared_projects/iRLM23Fa)  |
-| ["All-in-One" D32 Pro PCB /w PSK-10D-5 PSU](Single%20PCB%20-PSK-10D-5.md) | [Order](https://www.tindie.com/products/thorrak/brewpi-esp32-all-in-one-pcb-kit/) | [Order](https://oshpark.com/shared_projects/oSOuiQbp)  |
-| ["All-in-One" D32 Pro PCB /w IRM-10-5 PSU](Single%20PCB%20-IRM-10-5.md)   | Coming Soon                                     | [Order]()  |
+| Board Design                                                                 | Tindie Order Link                                                                 | OSHPark Order Link                                    |
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------|
+| ["One Size Fits Most" D32 / D32 Pro](D32%20Pro%20-%20TFT%20OneSize.md)       | [Order](https://www.tindie.com/products/27251/)                                   | [Order](https://oshpark.com/shared_projects/iRLM23Fa) |
+| ["All-in-One" D32 Pro PCB /w PSK-10D-5 PSU](Single%20PCB%20-%20PSK-10D-5.md) | [Order](https://www.tindie.com/products/thorrak/brewpi-esp32-all-in-one-pcb-kit/) | [Order](https://oshpark.com/shared_projects/oSOuiQbp) |
+| ["All-in-One" D32 Pro PCB /w IRM-10-5 PSU](Single%20PCB%20-%20IRM-10-5.md)   | Coming Soon                                                                       | [Order]()                                             |
 
 
 
@@ -26,7 +26,7 @@ separately.
 The "All-in-One" PCBs are designed to eliminate much of the wiring, and many of the "common components" by combining the 
 "main" PCB, 2-channel relay board, and DC power supply into a single, combined PCB. Due to supply constraints, there are
 multiple designs, differing only by the power supply module they integrate. The PSK-10D-5 PSU is difficult to come by,
-so most builders will want to choose the [IRM-10-5](Single%20PCB%20-IRM-10-5.md) version.
+so most builders will want to choose the [IRM-10-5](Single%20PCB%20-%20IRM-10-5.md) version.
 
 ### Advantages to the "All-in-One" PCBs
 
