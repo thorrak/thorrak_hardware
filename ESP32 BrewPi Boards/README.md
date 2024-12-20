@@ -1,5 +1,5 @@
-ESP32 BrewPi Controller Boards
-==============================
+# ESP32 BrewPi Controller Boards
+
 
 # NOTE - This document is NOT complete/verified yet. 
 ## Please do not base a build on this doc without consulting Thorrak directly first!
@@ -8,12 +8,63 @@ ESP32 BrewPi Controller Boards
 Although the "heart" of a BrewPi controller is the microprocessor running the BrewPi-compatible firmware, without other
 connected components that microcontroller cannot sense temperature, control power, or do any of the other things that
 make a temperature controller useful. For the ESP32 version of this project, I have designed a single, "one size fits 
-most" PCB that should work for virtually all builds. 
+most" PCB that should work for virtually all builds -- as well as a handful of true "all-in-one" PCBs which integrate
+the 5V 2A AC-to-DC power supply and 2-channel relay board that are typically required to be purchased/integrated
+separately. 
 
 
-| Board Design                                                            | Tindie Order Link                               | OSHPark Order Link                                     |
-|-------------------------------------------------------------------------|-------------------------------------------------|--------------------------------------------------------|
-| ["One Size Fits Most" D32 / D32 Pro](D32%20Pro%20-%20-TFT%20OneSize.md) | [Order](https://www.tindie.com/products/27251/) | [Order](https://oshpark.com/shared_projects/iRLM23Fa)  |
+| Board Design                                                                 | Tindie Order Link                                                                 | OSHPark Order Link                                    |
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------|
+| ["One Size Fits Most" D32 / D32 Pro](D32%20Pro%20-%20TFT%20OneSize.md)       | [Order](https://www.tindie.com/products/27251/)                                   | [Order](https://oshpark.com/shared_projects/iRLM23Fa) |
+| ["All-in-One" D32 Pro PCB /w PSK-10D-5 PSU](Single%20PCB%20-%20PSK-10D-5.md) | [Order](https://www.tindie.com/products/thorrak/brewpi-esp32-all-in-one-pcb-kit/) | [Order](https://oshpark.com/shared_projects/oSOuiQbp) |
+| ["All-in-One" D32 Pro PCB /w IRM-10-5 PSU](Single%20PCB%20-%20IRM-10-5.md)   | Coming Soon                                                                       | [Order]()                                             |
+
+
+
+## "All-in-One" PCB Notes
+
+The "All-in-One" PCBs are designed to eliminate much of the wiring, and many of the "common components" by combining the 
+"main" PCB, 2-channel relay board, and DC power supply into a single, combined PCB. Due to supply constraints, there are
+multiple designs, differing only by the power supply module they integrate. The PSK-10D-5 PSU is difficult to come by,
+so most builders will want to choose the [IRM-10-5](Single%20PCB%20-%20IRM-10-5.md) version.
+
+### Advantages to the "All-in-One" PCBs
+
+- **Streamlined Assembly:** With fewer individual components, the build process is faster and less error-prone
+- **Compact and Tidy Setup:** The all-in-one design results in a cleaner, more organized build
+- **Reduced Wiring:** Single PCB design eliminates dupont cables and additional AC wiring
+
+
+### Disadvantages to the "All-in-One" PCBs
+
+- **Larger PCB Size:** The integrated design results in a larger PCB, which may increase fabrication costs at some manufacturers
+- **Reduced Modularity:** If a component like the power supply or a relay fails, the entire board may need to be replaced or repaired
+- **Power (Current) Limitations:** This board is not suitable for higher-amperage loads, which may limit its application in some setups
+
+
+### Other Required Components
+
+Like the "One Size Fits Most" PCB,  there are a handful of additional componets required for a complete, working build. 
+This list is much smaller relative to other PCB types:
+
+| Component                                                                | Qty |
+|--------------------------------------------------------------------------|-----|
+| [LOLIN D32 Pro](https://www.aliexpress.us/item/2251832696801305.html)    | 1   |
+| [Ethernet cable](https://www.aliexpress.com/item/32694241950.html)       | 1   |
+| [LOLIN TFT](https://www.aliexpress.us/item/2251832733414978.html)*       | 1   |
+| [LOLIN TFT Cable](https://www.aliexpress.us/item/2251832662518722.html)* | 1   |
+
+- There are many knock-off LOLIN boards sold by various sellers across the internet. Some of these may work, but purchasing directly from LOLIN is recommended.
+- The ethernet cable is a standard, straight-through ethernet cable -- the same type as included with most home routers/networking equipment. If you have one already available, use it rather than ordering one.
+- The LOLIN TFT & TFT Cable are only required if using the Lolin TFT display type. If using a separate, third-party TFT -- or not using a display at all -- these can be omitted
+
+In addition to the above, this PCB is intended to be used in conjunction with a separate "Sensor Breakout Board" which
+is then connected to this PCB via the RJ-45 (ethernet) cable listed above. To complete a full controller, you will need
+the components listed on the [Sensor Board](../BrewPi%20Sensor%20Boards/README.md) pages as well.
+
+
+
+## "One Size Fits Most" PCB Notes
 
 
 This board supports the following features:
@@ -80,7 +131,7 @@ This is the optional, alternative TH part set. You **DO NOT** need these parts i
 | [1.0uF Capacitor](https://www.digikey.com/en/products/detail/kemet/C320C105K5N5TA7301/12701373)          | 2   |
 
 
-## Other Required Components
+### Other Required Components
 
 Below are the other "required" components for almost every build: 
 

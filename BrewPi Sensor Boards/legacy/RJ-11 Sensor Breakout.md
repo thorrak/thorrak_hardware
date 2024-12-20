@@ -9,13 +9,9 @@ This board is intended to allow for the DS18b20 temperature sensors (and optiona
 
 Temperature sensors are intended to be soldered directly to the board, and the door sensor can either be soldered directly to the board or can be connected via an optional screw terminal.
 
-Order Links
------------
-
-[Order from PCBs.io](https://PCBs.io/share/r16lD):
+## Design
 
 - 2 Layer Board - 1.8241 sq in (1.2370in x 1.4746in) / 1176.84 sq/mm (31.42mm x 37.45mm)
-- $7.21 per set of 4
 
 | Top View          | Bottom View          |
 | ----------------- |:--------------------:|
@@ -28,11 +24,11 @@ Order Links
 Bill of Materials
 -----------------
 
-| Part                                                                                              | Qty | Build Cost | Order Qty | Order Cost* |
-|---------------------------------------------------------------------------------------------------|-----|------------|-----------|-------------|
-| [PCB](https://PCBs.io/share/r16lD)                                                                | 1   | $1.80      | 4         | $7.21       |
-| [RJ11 Modular Jack w/no shield](https://www.aliexpress.com/item/32843453633.html) (J1)            | 1   | $0.33      | 10        | $3.33       |
-| [Wago 2-terminal Screw Clamp](https://www.aliexpress.com/item/32700056337.html) (X1) (Optional)   | 1   | $0.02      | 100       | $1.95       |
+| Part                                                                                         | Qty | Build Cost | Order Qty | Order Cost* |
+|----------------------------------------------------------------------------------------------|-----|------------|-----------|-------------|
+| PCB                                                                | 1   | $1.80      | 3         | $7.21       |
+| [RJ11 Modular Jack w/no shield](https://www.aliexpress.com/item/32843453633.html) (J1)       | 1   | $0.33      | 10        | $3.33       |
+| [Wago 2-terminal Screw Clamp](https://www.aliexpress.com/item/32700056337.html) (X1) (Optional) | 1   | $0.02      | 100       | $1.95       |
 
 * Order cost is the cost to order the linked item, in its minimum quantity, excluding shipping.
 
