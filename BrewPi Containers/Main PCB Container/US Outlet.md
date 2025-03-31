@@ -1,6 +1,6 @@
-# US Outlet Case Base
+# "Discrete Component" US Outlet Case Base
 
-This is the case design I use for all of my builds. It incorporates a standard [US duplex outlet](https://www.homedepot.com/p/Leviton-15-Amp-Residential-Grade-Grounding-Duplex-Outlet-White-R52-05320-00W/202066670) and [IEC-320 C14](https://www.aliexpress.com/item/32815198325.html) power inlet.
+This is the case design I use for all of my builds that utilize the "discrete component" PCB (where the power supply and relays are separate from the main PCB). It incorporates a standard [US duplex outlet](https://www.homedepot.com/p/Leviton-15-Amp-Residential-Grade-Grounding-Duplex-Outlet-White-R52-05320-00W/202066670) and [IEC-320 C14](https://www.aliexpress.com/item/32815198325.html) power inlet.
 
 
 
@@ -11,7 +11,9 @@ This case base was designed in OpenSCAD and has been rendered to an STL file for
 - [STL File](Case%20Base%20-%20US%20Outlet%20v1.2.stl)
 - [OpenSCAD Source](Case%20Base%20-%20US%20Outlet%20v1.2.scad)
 
+## Ordering
 
+If you do not have a 3D printer and would like to order this case to be printed for you, I make them available on my [Tindie store](https://www.tindie.com/products/26726/). Orders include the screws necessary for assembly.
 
 ## Bill of Materials
 
