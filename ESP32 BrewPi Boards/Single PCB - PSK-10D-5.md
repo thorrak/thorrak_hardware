@@ -11,7 +11,7 @@ This board does not have terminals for directly connecting temperature sensors -
 soldered on, and then be connected to a separate RJ-45 sensor board via an ethernet cable.
 
 **NOTE** - The choice of this board (vs. the [IRM-10-5](Single%20PCB%20-%20IRM-10-5.md) design) comes down to which power supply
-you can source. The power supply is included with purchases from [Tindie](https://www.tindie.com/products/thorrak/brewpi-esp32-all-in-one-pcb-kit/), and thus you can be agnostic as to the design if you purchase from there.
+you can source. This power supply is now discontinued by the manufacturer, and as such I dont anticipate many users will usw it, but as the design is complete I am including it in this repo. I rexommend looking at the [IRM-10-5](Single%20PCB%20-%20IRM-10-5.md) design which is the one I will be including with orders from [Tindie](https://www.tindie.com/products/36856/) going forward as a result.
 
 
 ## Order Links
@@ -21,7 +21,7 @@ you can source. The power supply is included with purchases from [Tindie](https:
 | Vendor/Aggregator                                                                                                                 | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
 |-----------------------------------------------------------------------------------------------------------------------------------|--------------|------------|------------|----------------|
 | [OshPark](https://oshpark.com/shared_projects/oSOuiQbp)                                                                           | 3            | $19.05     | $57.15     | < 3 weeks      |
-| [Tindie](https://www.tindie.com/products/thorrak/brewpi-esp32-all-in-one-pcb-kit/) - **Partially Assembled, Includes Components** | 1            | $47.95     | $47.95     | < 1 week       |
+| [Tindie](https://www.tindie.com/products/thorrak/brewpi-esp32-all-in-one-pcb-kit/) - **Partially Assembled, Includes Components** | 1            | $48.95     | $48.95     | < 1 week       |
 
 - The PCB from Tindie includes **all parts** listed in the Bill of Materials below
 - The PCB from Tindie includes all SMD components pre-soldered to the board, and includes the TH components for solder by the user
