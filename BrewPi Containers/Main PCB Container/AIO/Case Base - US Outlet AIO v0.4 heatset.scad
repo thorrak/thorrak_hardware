@@ -21,36 +21,6 @@ plate_thickness         = wall_thickness+.02;
 
 
 
-module add_vent_holes (panel_width, panel_height, gutter_width, gutter_height, hole_radius, hole_spacing, hole_length) {
-    main_row_holes = floor((panel_width - (2 * gutter_width))  / (hole_spacing + (hole_radius * 2)));
-    rows = floor((panel_height - (2 * gutter_height)) / (hole_spacing + (hole_radius * 2)));
-
-    for (n = [0:rows]) {
-        for (i = [0:main_row_holes]) {
-            // If we're on a "main row", then we put holes across the panel
-            if (n % 2 == 0)
-                translate([-1,(i*(hole_radius*2 + hole_spacing))+gutter_width,(n*(hole_radius*2 + hole_spacing))+gutter_height]) rotate([0,90,0]) cylinder(h=hole_length+2, r=hole_radius);
-
-            // If we're on an "off row" then we offset the holes, and drop one
-            if (n % 2 == 1)
-                if (i != main_row_holes) // This drops the hole
-                    translate([-1,(i*(hole_radius*2 + hole_spacing))+gutter_width+((hole_radius*2 + hole_spacing)/2),(n*(hole_radius*2 + hole_spacing))+gutter_height]) rotate([0,90,0]) cylinder(h=hole_length+2, r=hole_radius);
-        }
-    }
-}
-
-
-
-module make_screw_post(screw_radius, screw_length) {
-    post_width = (screw_radius * 4) + 1;
-    length = screw_length;
-
-    difference() {
-        cube([post_width, post_width, length]);
-        translate([post_width/2,post_width/2,length/2]) cylinder(h = (length+2), r1 = screw_radius, r2 = screw_radius, center=true);
-    }
-}
-
 module iec_320 () {
     {
         // This is the hole
@@ -79,6 +49,7 @@ heatset_insert_hole_diameter = 4.2;
 heatset_insert_screw_diameter = 3;
 screw_space_below_heatset = 0.2;
 post_height=heatset_insert_height + screw_space_below_heatset;
+post_radius = heatset_insert_hole_diameter/2+2.3;
 
 
 module make_esp_post_array(post_height) {
@@ -98,7 +69,6 @@ module make_esp_post_array(post_height) {
     esp_board_4_x_offset = 52.71 + esp_universal_x;
     esp_board_4_y_offset = esp_board_3_y_offset;
     
-    post_radius = heatset_insert_hole_diameter/2+2.3;
     
     module make_post(post_height) {
         translate([0,0,post_height/2]) difference() {
@@ -132,17 +102,11 @@ module angle_base_post(angled_height, width, flat_height) {
 // Define this here as we need to know it for the support ridge
 nut_post_width = 5.5 + 3.6;
 
-module captive_square_nut_post(post_top_at, attached_wall_thickness, rotation=0) {
-
-    // 5.5 was the previous nut width.
-
-
+module lid_post(post_top_at, attached_wall_thickness, rotation=0) {
     screw_radius = 1.6;
     screw_hole_length = 7;
 
-
-    nut_post_height = screw_hole_length + nut_post_width + 1;  
-
+    nut_post_height = screw_hole_length + nut_post_width + 1;
 
     module make_nut_post_holes() {
         // The screw hole
@@ -153,10 +117,8 @@ module captive_square_nut_post(post_top_at, attached_wall_thickness, rotation=0)
 
     }
 
-
     module make_post() {
         // This makes the rotateable post/holes
-  
         difference() {
             // The post itself
             cube([nut_post_width, nut_post_width, nut_post_height]);
@@ -173,19 +135,11 @@ module captive_square_nut_post(post_top_at, attached_wall_thickness, rotation=0)
 
 
 // Front top support "ridge"
-translate([case_width-nut_post_width, wall_thickness, case_height-2*wall_thickness-1]) rotate([0,0,90]) angle_base_post(wall_thickness, (case_width-(nut_post_width*2)), wall_thickness+1);
+translate([case_width-nut_post_width-wall_thickness+0.6, wall_thickness, case_height-2*wall_thickness-1]) rotate([0,0,90]) angle_base_post(wall_thickness, (case_width-(nut_post_width*2)-(wall_thickness*2)+0.6), wall_thickness+1);
 
 
 top_of_post = case_height;
 
-
-
-//difference() {
-    // This is the "wall" - should be deleted when in use
-  //  translate([-4,0,0]) cube([16.6, wall_thickness, 25]);
-    // This is the nut hole
-    //translate([0, wall_thickness, 0]) captive_square_nut_post(top_of_post, wall_thickness, rotation=0, holes_only=1);
-//}
 
 
 
@@ -195,9 +149,9 @@ top_of_post = case_height;
 translate([0,0,0]) cube([wall_thickness,case_depth,case_height]);
 
 // This is the front post
-translate([wall_thickness, wall_thickness+0, 0]) captive_square_nut_post(top_of_post, wall_thickness, rotation=270);
+translate([wall_thickness, wall_thickness+0, 0]) lid_post(top_of_post, wall_thickness, rotation=270);
 // This is the back post
-translate([wall_thickness, case_depth-wall_thickness-8.5, 0]) captive_square_nut_post(top_of_post, wall_thickness, rotation=270);
+translate([wall_thickness, case_depth-wall_thickness-8.5, 0]) lid_post(top_of_post, wall_thickness, rotation=270);
 
 // Wall support posts
 translate([wall_thickness, (case_depth/3*1-(wall_thickness/2)), 0]) cube([wall_thickness, wall_thickness, max(0, case_height-10)]);
@@ -209,9 +163,9 @@ translate([case_width-wall_thickness,0,0]) cube([wall_thickness,case_depth,case_
 
 
 // This is the front post
-translate([case_width-wall_thickness-8.5, wall_thickness+0, 0]) captive_square_nut_post(top_of_post, wall_thickness, rotation=90);
+translate([case_width-wall_thickness-8.5, wall_thickness+0, 0]) lid_post(top_of_post, wall_thickness, rotation=90);
 // This is the back post
-translate([case_width-wall_thickness-8.5, case_depth-wall_thickness-8.0, 0]) captive_square_nut_post(top_of_post, wall_thickness, rotation=90);
+translate([case_width-wall_thickness-8.5, case_depth-wall_thickness-8.0, 0]) lid_post(top_of_post, wall_thickness, rotation=90);
 
 // Wall support posts
 translate([case_width-wall_thickness*2, (case_depth/3*1-(wall_thickness/2)), 0]) cube([wall_thickness, wall_thickness, max(0, case_height-10)]);
