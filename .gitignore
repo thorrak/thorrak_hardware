@@ -2,7 +2,7 @@
 *.b#?
 *.s#?
 .DS_Store
-./idea
+.idea/
 .pro
 .epf
 .job
