@@ -23,3 +23,11 @@ This case base was designed in OpenSCAD and has been rendered to an STL file for
 - [STL File](Case%20Base%20-%20US%20Outlet%20AIO%20v0.1.stl)
 - [OpenSCAD Source](Case%20Base%20-%20US%20Outlet%20AIO%20v0.1.scad)
 
+
+
+## Lids
+
+There are two lid designs available, depending on the type of screen you use:
+
+- 2.8" LCD
+- Lolin D32 Pro 2.4" TFT
