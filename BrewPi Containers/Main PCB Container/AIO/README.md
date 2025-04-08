@@ -20,14 +20,23 @@ If you do not have a 3D printer, and would luke to order this design to be print
 
 This case base was designed in OpenSCAD and has been rendered to an STL file for printing. The OpenSCAD source is available as well.
 
-- [STL File](Case%20Base%20-%20US%20Outlet%20AIO%20v0.1.stl)
-- [OpenSCAD Source](Case%20Base%20-%20US%20Outlet%20AIO%20v0.1.scad)
-
+* [STL File](Case%20Base%20-%20US%20Outlet%20AIO%20v0.1.stl)
+* [OpenSCAD Source](Case%20Base%20-%20US%20Outlet%20AIO%20v0.1.scad)
 
 
 ## Lids
 
-There are two lid designs available, depending on the type of screen you use:
+There are three lid designs available, depending on the type of screen you use:
 
-- 2.8" LCD
-- Lolin D32 Pro 2.4" TFT
+* Lolin D32 Pro 2.4" TFT
+* 2.8" LCD
+* 3.2" LCD
+
+The D32 Pro TFT is assumed to connect to the All-in-One PCB using LoLin's TFT cable. The 2.8" and 3.2" LCDs are assumed to connect to the PCB using the "backpack" PCB and a ribbon cable.
+
+
+## Assembly
+
+I have created a video which covers the assembly of the base case and posted on YouTube. The video is available here:
+
+[![AIO Case Assembly Video](https://img.youtube.com/vi/D0J5y-Nb4vk/0.jpg)](https://www.youtube.com/watch?v=D0J5y-Nb4vk)
