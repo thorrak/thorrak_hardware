@@ -11,7 +11,7 @@ This board does not have terminals for directly connecting temperature sensors -
 soldered on, and then be connected to a separate RJ-45 sensor board via an ethernet cable.
 
 **NOTE** - The choice of this board (vs. the [PSK-10D-5](Single%20PCB%20-%20PSK-10D-5.md) design) comes down to which power supply
-you can source. The power supply is included with purchases from [Tindie](https://www.tindie.com/products/thorrak/brewpi-esp32-all-in-one-pcb-kit/), and thus you can be agnostic as to the design if you purchase from there.
+you can source. The power supply is included with purchases from [Tindie](https://www.tindie.com/products/36856/), and thus you can be agnostic as to the design if you purchase from there.
 
 
 ## Order Links
@@ -21,10 +21,10 @@ you can source. The power supply is included with purchases from [Tindie](https:
 | Vendor/Aggregator                                                    | Qty Included | Cost/Board | Total Cost | Est. Lead Time |
 |----------------------------------------------------------------------|--------------|------------|------------|----------------|
 | [OshPark](https://oshpark.com/shared_projects/B6Dk3a2B)              | 3            | $19.05     | $57.15     | < 3 weeks      |
-| Tindie (Coming Soon) - **Partially Assembled, Includes Components**  | 1            | $47.95     | $47.95     | < 1 week       |
+| [Tindie](https://www.tindie.com/products/36856/) - **Partially Assembled, Includes Components**  | 1            | $48.95     | $48.95     | < 1 week       |
 
 - The PCB from Tindie includes **all parts** listed in the Bill of Materials below
-- The PCB from Tindie includes all SMD components pre-soldered to the board, and includes the TH components for solder by the user
+- The PCB from Tindie includes all SMD components pre-soldered to the board, some TH components pre-soldered to the board, and some TH components for solder by the user
 - This design **does not** integrate temperature sensors, and is intended for use with a separate [sensor PCB](../BrewPi%20Sensor%20Boards/README.md)
 
 
@@ -116,6 +116,10 @@ This board supports two screen types, though it is only recommended that one be 
 - The use of an ILI9341-driven TFT screen connected to the 10 pin box header
 
 
+Case
+----
+
+This PCB interacts with mains voltage, and is intended to be enclosed. I have a 3D printable case design available both within this repo and on [Tindie](https://www.tindie.com/products/38070/), but a project enclosure can also be used. 
 
 Changelog
 ---------
